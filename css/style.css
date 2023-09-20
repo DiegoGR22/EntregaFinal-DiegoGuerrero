@@ -46,7 +46,7 @@ header{
 
 .section-principal{
     display: flex;
-    background-image: url("https://s3-alpha-sig.figma.com/img/582c/41a1/10e6d5b80abb570dcaaa7107801fe664?Expires=1694390400&Signature=NLcqiFy-OgxvziadZ8pE5TbIIbv7Py~EsuTzWWk0n7x5bQ2ayEZyqfTAIqWGIjLQhSo9~noPXfnsysizkjOn7L3difMEm4X4rXUD5fCxO0vYsD7hnDi2pi5HK~mlDOogqOOGGfHMLp-ZvNrzNtVfmPj6Us3U-ZEcD4zjgxenBmKDqhGtqz8DQeLv9-WwGpPHGEJSCgklKRcKOkQDXdYCNMCh9uIVUmf949d4oyaWRrbaCQMKzz4t2uiGQbyCE9RrPQK6794Vmi2H-yXCTZX3WJ~PwCGq2vPAdh2jkwpFAHtuAXn65zAdFfu1jHqHvIFQEyEX7lMtr3J-y04Oa~~GMQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -613,7 +613,7 @@ header{
 /******* BENEFICIOS.HTML *******/
 
 .beneficios-portada{
-    background-image: url(https://s3-alpha-sig.figma.com/img/5aae/4c53/d37ad95c2d3ebce7003f80268fe9c878?Expires=1694390400&Signature=L1GOsYXL0bQHmD9JcAS~O0oMj9iXRAtbeQhoSqVBEqGOCNvUdfgDtgjxT29Au-Ssjk3yQQvF6VxE-Gxa7LB614mPvz7WKAKm32Nhiti~UxQQ04Klwe-hr50RL2dGiTS2SapyDoenIWGrFf6v2bPfjynlWtS0-Zxb21DsAfguSmNWh~wkENeCQdbZ~AjrKEUhdO~JxQlCwd2bi6nDL0qld2VRaqz5R0rBByuRSlZnS8wrJBfOuzqfFevqcqcFx5Z0EAdcc2gVUcMOeyCq4xrHXSCG8jHOAcilhWhbodOCvyioGHSpVVwGz~gP1k5kNhngkhuL1XsrYD6WHbCHAIS-0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-image: url(https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
     background-position: center bottom;
     background-size: cover;
     height: 25rem;
