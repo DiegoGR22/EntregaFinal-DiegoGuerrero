@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inria Sans', sans-serif;
+}
+
+/********** HEADER **********/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 1.5625rem 1.25rem;
+    position: sticky;
+    top: 0;
+    height: 6.25rem;
+    border-bottom: solid 3px lightgray;
+}
+
+.logo{
+    width: 9.375rem;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 1.25rem;
+    align-content: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+/********** MAIN **********/
+
+.section-principal{
+    display: flex;
+    background-image: url("https://s3-alpha-sig.figma.com/img/582c/41a1/10e6d5b80abb570dcaaa7107801fe664?Expires=1694390400&Signature=NLcqiFy-OgxvziadZ8pE5TbIIbv7Py~EsuTzWWk0n7x5bQ2ayEZyqfTAIqWGIjLQhSo9~noPXfnsysizkjOn7L3difMEm4X4rXUD5fCxO0vYsD7hnDi2pi5HK~mlDOogqOOGGfHMLp-ZvNrzNtVfmPj6Us3U-ZEcD4zjgxenBmKDqhGtqz8DQeLv9-WwGpPHGEJSCgklKRcKOkQDXdYCNMCh9uIVUmf949d4oyaWRrbaCQMKzz4t2uiGQbyCE9RrPQK6794Vmi2H-yXCTZX3WJ~PwCGq2vPAdh2jkwpFAHtuAXn65zAdFfu1jHqHvIFQEyEX7lMtr3J-y04Oa~~GMQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 30rem;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+    color: whitesmoke;
+    padding: 3.125rem;
+}
+
+.principal h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.principal p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.video{
+    margin: 1.25rem;
+    padding: 3.125rem;
+}
+
+.frase-gancho{
+    width: 100%;
+    height: 15.625rem;
+    background-color: #064b7dd7;
+    padding: 4.6875rem 3.125rem;
+}
+
+.frase-gancho p{
+    text-align: center;
+    font-size: 1.3125rem;
+    color: whitesmoke;
+}
+
+.como-ayudamos{
+    display: flex;
+    height: 32.5rem;
+    margin-top: .625rem;
+    padding: 1.875rem;
+}
+
+.ayudas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo{
+    display: flex;
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: rgba(61, 145, 173, 0.787);
+    border-radius: 18.75rem;
+    margin-bottom: .9375rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo img{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+.ayudas p{
+    text-align: center;
+    margin: .9375rem;
+}
+
+.atraer-clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 135, 177, 0.856);
+    height: 11.875rem;
+}
+
+.datos-clientes{
+    display: flex;
+    list-style: none;
+    gap: 18.75rem;
+    color: whitesmoke;
+    font-size: 2.1875rem;
+    padding: 2.5rem 12.5rem;
+    text-align: center;
+}
+
+.cinta-giros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.731);
+    height: 4.375rem;
+    font-weight: bold;
+}
+
+.cinta-giros ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 2.5rem;
+}
+
+.cinta-giros ul li img{
+    width: 2.5rem;
+}
+
+.cinta-giros ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.testimoniales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    /* margin-top: 1.875rem; */
+}
+
+.testimoniales h2{
+    font-size: 3.75rem;
+    letter-spacing: .3125rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.testimoniales video{
+    width: 819px;
+    height: 403px;
+}
+
+.testimoniales img{
+    width: 3.75rem;
+    margin: 3.125rem;
+}
+
+.videos-testimoniales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction-inscribirme{
+    display: flex;
+    align-items: center;
+    height: 9.375rem;
+    width: 100%;
+    margin-top: 3.125rem;
+}
+
+.calltoaction-inscribirme p{
+    font-size: 2.5rem;
+    width: 50%;
+    /* margin: 1.25rem; */
+    padding: 1.25rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-button{
+    display: flex;
+    width: 50%;
+    /* margin: 1.25rem; */
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.calltoaction-inscribirme button{
+    display: flex;
+    width: 31.25rem;
+    height: 6.25rem;
+    background-color: #07598C;;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.875rem;
+    align-items: center;
+}   
+
+.calltoaction-inscribirme button a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.4375rem;
+    padding: 1.25rem 5rem 1.25rem 6.25rem;
+    text-align: center;
+}
+
+.calltoaction-inscribirme button:hover {
+    background-color: #bb0606;
+}
+
+/********** FOOTER **********/
+
+.footer-contacto{
+    display: flex;
+    flex-direction: row;
+    background-color: #064B7DDE;
+    height: 31.25rem;
+    /* padding: 1.25rem; */
+    color: whitesmoke;
+}
+
+.contactanos{
+    width: 60%;
+    padding: 1.25rem;
+}
+
+.contactanos h2{
+    font-size: 2.5rem;
+}
+
+.contactanos p{
+    font-size: 1.25rem;
+}
+
+.contactanos img{
+    width: 12.5rem;
+    margin-top: 1.25rem;
+}
+
+.fcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.link-arbol{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+    justify-content: center;
+}
+
+.redes img{
+    width: 3.125rem;
+}
+
+.formulario2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 28.125rem;
+    gap: .3125rem;
+    margin-top: 1.25rem;
+}
+
+.form-box{
+    background-color: #1a446261;
+    height: 3.125rem;
+    gap: 1.25rem;
+    border: none;
+    border-radius: 3.125rem;
+    fill: rgba(0, 0, 0, 0.31);
+    /* mix-blend-mode: multiply; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: whitesmoke;
+    font-size: 1.25rem;
+    padding-left: 1.25rem;
+}   
+
+.form-box::placeholder{
+    color: rgba(245, 245, 245, 0.254);
+    font-size: 1.25rem;
+    font-family: 'Inria Sans' sans-serif;
+    padding-left: 1.25rem;
+}
+
+.form-textarea{
+    padding-top: .9375rem;
+    margin-top: .3125rem;
+    height: 12.5rem;
+    /* border-radius: 1.25rem; */
+}
+
+.send-button{
+    background-color: #62A4CE;
+    width: 9.375rem;
+    height: 1.875rem;
+    margin-top: 1.25rem;
+    border: none;
+    border-radius: 3.125rem;
+    fill: rgba(117, 185, 226, 0.76);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: whitesmoke;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.send-button:hover{
+    background-color: #bb0606;
+}
+
+.aviso{
+    background-color: #D9D9D9;;
+    text-align: center;
+    /* padding: .1875rem; */
+    font-size: small;
+    height: 2.5rem;
+}
+
+.aviso h3{
+    padding: .625rem;
+    font-weight: 300;
+}
+
+
+/******* NOSOTROS.HTML *******/
+
+.acerca-de-nosotros{
+    display: flex;
+
+    height: 25rem;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+    color: black;
+    padding: 3.125rem;
+}
+
+.about-us h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.video-nosotros{
+    margin: 1.25rem;
+    padding: 3.125rem;
+}
+
+.frase-nosotros{
+    width: 100%;
+    height: 10rem;
+    background-image: url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1.875rem 25rem;
+    margin-bottom: 1.25rem;
+}
+
+.frase-nosotros p{
+    text-align: center;
+    font-size: 1.3125rem;
+    color: whitesmoke;
+}
+
+.equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    /* margin-top: 1.875rem; */
+}
+
+.texto-equipo{
+    margin: 1.25rem 1.875rem;
+}
+
+.texto-equipo h2{
+    font-size: 2.5rem;
+    letter-spacing: .3125rem;
+    padding-bottom: .625rem;
+}
+
+.texto-equipoequipo p{
+    font-size: .9375rem;
+    padding-right: 3.125rem;
+}
+
+.equipo video{
+    width: 819px;
+    height: 403px;
+}
+
+.flechas{
+    width: 2.5rem;
+    margin: 3.125rem;
+}
+
+.carrusel-equipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    height: 37.5rem;
+}
+
+.personas-equipo{
+    display: flex;
+    width: 17.5rem;
+}   
+
+.cuadro-persona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: solid 3px lightgray;; */
+}
+
+.cuadro-persona-foto{
+    height: 21.875rem;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: solid 3px black;
+}
+
+.cuadro-persona h3{
+    color: black;
+    font-size: 1.875rem;
+    text-align: center;
+    padding: .625rem 0rem;
+}
+
+.cuadro-persona p{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/******* CONTENIDO.HTML *******/
+
+.webinar-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.webinar-texto h3{
+    font-size: 2.1875rem;
+}
+
+.webinar-texto p{
+    font-size: 1.125rem;
+    padding: .625rem .625rem .125rem 0rem;
+}
+
+.webinar-video{
+    display: flex;
+    justify-content: center;
+}
+
+.podcast-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.podcast-texto h3{
+    font-size: 2.1875rem;
+}
+
+.podcast-texto p{
+    font-size: 1.125rem;
+    padding: .625rem .625rem .125rem 0rem;
+}
+
+.podcast-spotify{
+    padding: 0rem 3.125rem 1.875rem 3.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.news-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.news-texto h3{
+    font-size: 2.1875rem;
+}
+
+.news-texto p{
+    font-size: 1.125rem;
+    padding: .625rem .625rem .125rem 0rem;
+}
+
+.linea-news{
+    display: flex;
+    width: 100%;
+    margin: 1.25rem 1.875rem;
+    background-color: black;
+    height: .3125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-flex{
+    display: flex;
+}
+
+.news-img{
+    width: 50%;
+    margin: .625rem 6.25rem;
+}
+
+.news-img a img{
+    width: 37.5rem;
+}
+
+.news-mensual{
+    width: 50%;
+    text-align: right;
+    margin: .625rem 3.125rem;
+}
+
+.news-mensual h4{
+    font-size: 6.25rem;
+}
+
+.news-mensual p{
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin-top: 1.25rem;
+}
+
+.news-siguientes{
+    display: flex;
+    margin: 0rem 3.125rem;
+    padding-bottom: 3.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-siguientes img{
+    width: 3.125rem;
+}
+
+.news-siguientes h4{
+    font-size: 2.5rem;
+}
+
+/******* BENEFICIOS.HTML *******/
+
+.beneficios-portada{
+    background-image: url(https://s3-alpha-sig.figma.com/img/5aae/4c53/d37ad95c2d3ebce7003f80268fe9c878?Expires=1694390400&Signature=L1GOsYXL0bQHmD9JcAS~O0oMj9iXRAtbeQhoSqVBEqGOCNvUdfgDtgjxT29Au-Ssjk3yQQvF6VxE-Gxa7LB614mPvz7WKAKm32Nhiti~UxQQ04Klwe-hr50RL2dGiTS2SapyDoenIWGrFf6v2bPfjynlWtS0-Zxb21DsAfguSmNWh~wkENeCQdbZ~AjrKEUhdO~JxQlCwd2bi6nDL0qld2VRaqz5R0rBByuRSlZnS8wrJBfOuzqfFevqcqcFx5Z0EAdcc2gVUcMOeyCq4xrHXSCG8jHOAcilhWhbodOCvyioGHSpVVwGz~gP1k5kNhngkhuL1XsrYD6WHbCHAIS-0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-position: center bottom;
+    background-size: cover;
+    height: 25rem;
+}
+
+.beneficios-portada h2{
+    text-align: right;
+    font-size: 3.125rem;
+}
+
+.beneficios-texto{
+    margin: 3.125rem;
+}
+
+.beneficios-texto p{
+    text-align: center;
+    padding: 0rem 6.25rem;
+    font-size: 1.25rem;
+}
+
+.beneficios-ofrecemos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-ofrecemos h3{
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.beneficios-1a3{
+    display: flex;
+    gap: 2.5rem;    
+    margin-bottom: 1.875rem;
+}
+
+.beneficios-1a3 div{
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: lightgray;
+}
+
+.beneficios-s1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s1 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.beneficios-s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s2 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.beneficios-s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s3 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.beneficios-4a6{
+    display: flex;
+    gap: 2.5rem; 
+}
+
+.beneficios-4a6 div{
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: lightgray;
+    
+}
+
+.beneficios-s4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s4 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.beneficios-s5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s5 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.beneficios-s6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-s6 img{
+    width: 8rem;
+    padding-bottom: 1.875rem
+}
+
+.faqs{
+    margin: 2.5rem 4.375rem;
+}
+
+.faqs h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.875rem;
+}
+
+.faqs ol{
+    list-style: upper-roman;
+    font-size: 1.25rem;
+    margin: 0rem 4.375rem;
+}
+
+.faqs ol li{
+    padding-bottom: .625rem;
+}
+
+.cta-solicitar{
+    margin: 0rem 4.375rem;
+}
+
+.cta-solicitar h3{
+    font-size: 3.125rem;
+}
+
+.cta-solicitar p{
+    font-size: 1.25rem;
+}
+
+.button-beneficios{
+    display: flex;
+    width: 50%;
+    /* margin: 1.25rem; */
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.cta-solicitar button{
+    display: flex;
+    width: 31.25rem;
+    height: 6.25rem;
+    background-color: #07598C;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.875rem;
+    align-items: center;
+}   
+
+.cta-solicitar button a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.4375rem;
+    padding: 1.25rem 5rem 1.25rem 6.25rem;
+    text-align: center;
+}
+
+.cta-solicitar button:hover {
+    background-color: #bb0606;
+}
+
+.beneficios-final{
+    display: flex;
+    margin: 1.875rem 4.375rem;
+    gap: 1.25rem;
+    text-align: center;
+}   
+
+.final-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-frase{
+    width: 100%;
+    height: 10rem;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.875rem 6.25rem;
+    background-color: lightgray;
+}
+
+/******* CLIENTES.HTML *******/
+
+.main-clientes{
+    margin: 1.25rem 4.375rem;
+}
+
+.clientes-principal h2{
+    font-size: 2.5rem;
+    padding-bottom: 1.875rem;
+}
+
+.clientes-principal p{
+    font-size: 1.25rem;
+    padding-bottom: 1.875rem;
+}
+
+.clientes-cinta{
+    padding-bottom: 3.125rem;
+}
+
+.clientes-cinta h3{
+    font-size: 1.875rem;
+    padding-bottom: 1.25rem;
+}
+
+.empresas-clientes h3{
+    font-size: 1.875rem;
+    padding-bottom: 1.875rem;
+}   
+
+.empresas{
+    display: flex;
+    gap: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.875rem;
+}
+
+.empresas img{
+    width: 3.125rem;
+}
+
+.testimoniales-clientes h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.25rem;
+}
