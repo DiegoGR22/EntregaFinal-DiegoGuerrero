@@ -4,9 +4,38 @@
     box-sizing: border-box;
 }
 
-html{
+/* html{
+    font-family: 'Inria Sans', sans-serif;
+} */
+
+h1{
     font-family: 'Inria Sans', sans-serif;
 }
+h2{
+    font-family: 'Inria Sans', sans-serif;
+}
+h3{
+    font-family: 'Inria Sans', sans-serif;
+}
+h4{
+    font-family: 'Inria Sans', sans-serif;
+}
+h5{
+    font-family: 'Inria Sans', sans-serif;
+}
+h6{
+    font-family: 'Inria Sans', sans-serif;
+}
+li{
+    font-family: 'Inria Sans', sans-serif;
+}
+a{
+    font-family: 'Inria Sans', sans-serif;
+}
+p{
+    font-family: 'Inria Sans', sans-serif;
+}
+
 
 /********** HEADER **********/
 
@@ -31,13 +60,15 @@ header{
     list-style: none;
     gap: 1.25rem;
     align-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar li a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    font-family: 'Inria Sans', sans-serif;
+    /* font-family: 'Inria Sans', sans-serif; */
     font-weight: bolder;
     font-size: 1.25rem;
 }
@@ -187,7 +218,7 @@ header{
     margin-bottom: 1.25rem;
 }
 
-.testimoniales video{
+/* .testimoniales video{
     width: 819px;
     height: 403px;
 }
@@ -201,6 +232,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.carousel-bootstrap{
+    width: 50%;
+    height: auto;   
 }
 
 .calltoaction-inscribirme{
@@ -369,7 +405,7 @@ header{
     height: 2.5rem;
 }
 
-.aviso h3{
+.aviso h6{
     padding: .625rem;
     font-weight: 300;
 }
@@ -845,6 +881,7 @@ header{
 .clientes-principal h2{
     font-size: 2.5rem;
     padding-bottom: 1.875rem;
+    font-weight: bolder;
 }
 
 .clientes-principal p{
@@ -859,11 +896,13 @@ header{
 .clientes-cinta h3{
     font-size: 1.875rem;
     padding-bottom: 1.25rem;
+    font-weight: bold;
 }
 
 .empresas-clientes h3{
     font-size: 1.875rem;
     padding-bottom: 1.875rem;
+    font-weight: bold;
 }   
 
 .empresas{
@@ -881,4 +920,9 @@ header{
 .testimoniales-clientes h3{
     font-size: 2.5rem;
     padding-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+.testimoniales-escritos{
+    margin-top: 1.25rem;
 }
