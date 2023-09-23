@@ -49,6 +49,7 @@ header{
     top: 0;
     height: 6.25rem;
     border-bottom: solid 3px lightgray;
+    z-index: 10000;
 }
 
 .logo{
