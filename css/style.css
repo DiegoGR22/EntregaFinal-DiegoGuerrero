@@ -669,134 +669,68 @@ header{
 
 /******* BENEFICIOS.HTML *******/
 
-/* .beneficios-portada{
-    background-image: url(https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
-    background-position: bottom;
-    background-size: cover;
-    height: 25rem;
-}
-
-.beneficios-portada h2{
-    text-align: right;
-    font-size: 3.125rem;
-} */
-
 .beneficios-texto{
-    margin: 3.125rem;
+    margin: 2.5rem;
 }
 
 .beneficios-texto p{
     text-align: center;
     padding: 0rem 6.25rem;
     font-size: 1.25rem;
-}
-
-.beneficios-ofrecemos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0px;
 }
 
 .beneficios-ofrecemos h3{
-    font-size: 2.5rem;
-    margin-bottom: 1.25rem;
-}
-
-.beneficios-1a3{
-    display: flex;
-    gap: 2.5rem;    
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
     margin-bottom: 1.875rem;
 }
 
-.beneficios-1a3 div{
-    width: 18.75rem;
-    height: 18.75rem;
-    background-color: lightgray;
+.beneficios-grid{
+    display: grid;
+    justify-content: center;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3,18.75rem);
+    grid-template-rows: repeat(2,18.75rem);
+    grid-template-areas: 
+    "b1 b2 b3"
+    "b4 b5 b6"
+    ;
 }
 
-.beneficios-s1{
+.container-b{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
+    background-color: lightblue;
 }
 
-.beneficios-s1 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
+.b1{
+    grid-area: b1;
 }
 
-.beneficios-s2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.b2{
+    grid-area: b2;
 }
 
-.beneficios-s2 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
+.b3{
+    grid-area: b3;
 }
 
-.beneficios-s3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.b4{
+    grid-area: b4;
 }
 
-.beneficios-s3 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
+.b5{
+    grid-area: b5;
 }
 
-.beneficios-4a6{
-    display: flex;
-    gap: 2.5rem; 
-}
-
-.beneficios-4a6 div{
-    width: 18.75rem;
-    height: 18.75rem;
-    background-color: lightgray;
-    
-}
-
-.beneficios-s4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.beneficios-s4 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
-}
-
-.beneficios-s5{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.beneficios-s5 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
-}
-
-.beneficios-s6{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.beneficios-s6 img{
-    width: 8rem;
-    padding-bottom: 1.875rem
+.b6{
+    grid-area: b6;
 }
 
 .faqs{
