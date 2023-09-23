@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -27,7 +28,7 @@
     </header>
 
     <main>
-        <section class="acerca-de-nosotros">
+        <section class="acerca-de-nosotros bg-light bg-gradient">
             <div class="about-us">
                 <h1>ACERCA DE NOSOTROS</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia aspernatur facilis deleniti fugiat illo ex cumque animi fuga maxime accusamus quaerat nobis vero natus amet, facere sapiente culpa in minus!</p>
@@ -45,7 +46,9 @@
                 <h2>CONOCE AL EQUIPO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut asperiores veritatis voluptate, voluptatem accusamus numquam ipsa expedita alias aspernatur nisi, molestiae dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente officiis tempore distinctio repellendus iusto libero ducimus praesentium, amet rerum a! Perferendis eum illum vitae nesciunt cumque quia accusamus eaque.</p>
             </div>
-            <div class="carrusel-equipo">
+
+            <!-- Cards DGR -->
+            <!-- <div class="carrusel-equipo">
                 <img class="flechas" src="../assets/img/flecha-izquierda.png" alt="">
                 <div class="cuadro-persona">
                     <div class="cuadro-persona-foto">
@@ -74,9 +77,36 @@
                         <p>PUESTO</p>
                     </div>
                 </div>
-                <!-- <video controls src=""></video> -->
                 <img class="flechas" src="../assets/img/flecha-derecha.png" alt="">
-            </div>
+            </div> -->
+
+            <!-- Cards equipo con bootstrap -->
+            <section class="d-flex gap-5">
+                <div class="card" style="width: 18rem; border: none; background-color: transparent;">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">YUDIEL GUERRERO VEGA</h5>
+                        <p class="card-text">SOCIO FUNDADOR</p>
+                        <a href="#" class="btn btn-outline-secondary btn-sm" style="text-align: center;" role="button">Más información</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1664&q=80" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">VIVI CEPEDA</h5>
+                        <p class="card-text">SOCIA DIRECTORA</p>
+                        <a href="#" class="btn btn-outline-secondary btn-sm" style="text-align: center;" role="button">Más información</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">JOSÉ LUIS OLIVERA</h5>
+                        <p class="card-text">SOCIO DE DESARROLLO DE NEGOCIOS</p>
+                        <a href="#" class="btn btn-outline-secondary btn-sm" style="text-align: center;" role="button">Más información</a>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 
@@ -109,9 +139,12 @@
         </section>
         <section>
             <div class="aviso">
-                <h3>2023 ® MARCA REGISTRADA  |  AVISO DE PRIVACIDAD  |  DISEÑADO POR D&K INDUSTRIES</h3>
+                <h6>2023 ® MARCA REGISTRADA  |  AVISO DE PRIVACIDAD  |  DISEÑADO POR D&K INDUSTRIES</h6>
             </div>
         </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -203,6 +203,11 @@ header{
     gap: .5rem;
 }
 
+.giros{
+    margin: 0;
+    padding: 0;
+}
+
 .testimoniales{
     display: flex;
     flex-direction: column;
@@ -333,12 +338,13 @@ header{
 .redes{
     display: flex;
     flex-direction: row;
-    gap: .625rem;
+    gap: .9375rem;
     justify-content: center;
 }
 
 .redes img{
     width: 3.125rem;
+    margin-top: .625rem;
 }
 
 .formulario2{
@@ -415,7 +421,6 @@ header{
 
 .acerca-de-nosotros{
     display: flex;
-
     height: 25rem;
 }
 
@@ -446,8 +451,10 @@ header{
 
 .frase-nosotros{
     width: 100%;
-    height: 10rem;
-    background-image: url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+    height: 10.625rem;
+    /* background-image: url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80); */
+    background-image: url(../assets/img/personas-nosotroshtml.jpeg);
+    /* filter: opacity(.9); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -458,7 +465,9 @@ header{
 .frase-nosotros p{
     text-align: center;
     font-size: 1.3125rem;
-    color: whitesmoke;
+    color: black;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 
 .equipo{
@@ -475,21 +484,17 @@ header{
 
 .texto-equipo h2{
     font-size: 2.5rem;
-    letter-spacing: .3125rem;
+    letter-spacing: .1875rem;
     padding-bottom: .625rem;
+    font-weight: bold;
 }
 
-.texto-equipoequipo p{
+.texto-equipo p{
     font-size: .9375rem;
     padding-right: 3.125rem;
 }
 
-.equipo video{
-    width: 819px;
-    height: 403px;
-}
-
-.flechas{
+/* .flechas{
     width: 2.5rem;
     margin: 3.125rem;
 }
@@ -511,8 +516,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border: solid 3px lightgray;; */
 }
 
 .cuadro-persona-foto{
@@ -534,6 +537,23 @@ header{
     font-size: 1.25rem;
     font-weight: 300;
     text-align: center;
+} */
+
+.card img{
+    height: 21.875rem; object-fit: cover; 
+    border-radius: 1.875rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-body h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: .9375rem;
 }
 
 /******* CONTENIDO.HTML *******/
