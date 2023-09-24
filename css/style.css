@@ -35,6 +35,9 @@ a{
 p{
     font-family: 'Inria Sans', sans-serif;
 }
+article{
+    font-family: 'Inria Sans', sans-serif;
+}
 
 
 /********** HEADER **********/
@@ -223,22 +226,6 @@ header{
     margin-top: 1.875rem;
     margin-bottom: 1.25rem;
 }
-
-/* .testimoniales video{
-    width: 819px;
-    height: 403px;
-}
-
-.testimoniales img{
-    width: 3.75rem;
-    margin: 3.125rem;
-}
-
-.videos-testimoniales{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .carousel-bootstrap{
     width: 50%;
@@ -453,9 +440,7 @@ header{
 .frase-nosotros{
     width: 100%;
     height: 10.625rem;
-    /* background-image: url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80); */
     background-image: url(../assets/img/personas-nosotroshtml.jpeg);
-    /* filter: opacity(.9); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -476,7 +461,6 @@ header{
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    /* margin-top: 1.875rem; */
 }
 
 .texto-equipo{
@@ -495,51 +479,6 @@ header{
     padding-right: 3.125rem;
 }
 
-/* .flechas{
-    width: 2.5rem;
-    margin: 3.125rem;
-}
-
-.carrusel-equipo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.875rem;
-    height: 37.5rem;
-}
-
-.personas-equipo{
-    display: flex;
-    width: 17.5rem;
-}   
-
-.cuadro-persona{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cuadro-persona-foto{
-    height: 21.875rem;
-    overflow: hidden;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border: solid 3px black;
-}
-
-.cuadro-persona h3{
-    color: black;
-    font-size: 1.875rem;
-    text-align: center;
-    padding: .625rem 0rem;
-}
-
-.cuadro-persona p{
-    color: black;
-    font-size: 1.25rem;
-    font-weight: 300;
-    text-align: center;
-} */
-
 .card img{
     height: 21.875rem; object-fit: cover; 
     border-radius: 1.875rem;
@@ -555,116 +494,6 @@ header{
     text-align: center;
     font-weight: lighter;
     font-size: .9375rem;
-}
-
-/******* CONTENIDO.HTML *******/
-
-.webinar-texto{
-    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
-}
-
-.webinar-texto h3{
-    font-size: 2.1875rem;
-}
-
-.webinar-texto p{
-    font-size: 1.125rem;
-    padding: .625rem .625rem .125rem 0rem;
-}
-
-.webinar-video{
-    display: flex;
-    justify-content: center;
-}
-
-.podcast-texto{
-    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
-}
-
-.podcast-texto h3{
-    font-size: 2.1875rem;
-}
-
-.podcast-texto p{
-    font-size: 1.125rem;
-    padding: .625rem .625rem .125rem 0rem;
-}
-
-.podcast-spotify{
-    padding: 0rem 3.125rem 1.875rem 3.125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-}
-
-.news-texto{
-    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
-}
-
-.news-texto h3{
-    font-size: 2.1875rem;
-}
-
-.news-texto p{
-    font-size: 1.125rem;
-    padding: .625rem .625rem .125rem 0rem;
-}
-
-.linea-news{
-    display: flex;
-    width: 100%;
-    margin: 1.25rem 1.875rem;
-    background-color: black;
-    height: .3125rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.news-flex{
-    display: flex;
-}
-
-.news-img{
-    width: 50%;
-    margin: .625rem 6.25rem;
-}
-
-.news-img a img{
-    width: 37.5rem;
-}
-
-.news-mensual{
-    width: 50%;
-    text-align: right;
-    margin: .625rem 3.125rem;
-}
-
-.news-mensual h4{
-    font-size: 6.25rem;
-}
-
-.news-mensual p{
-    font-size: 1.875rem;
-    font-weight: 300;
-    margin-top: 1.25rem;
-}
-
-.news-siguientes{
-    display: flex;
-    margin: 0rem 3.125rem;
-    padding-bottom: 3.125rem;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.news-siguientes img{
-    width: 3.125rem;
-}
-
-.news-siguientes h4{
-    font-size: 2.5rem;
 }
 
 /******* BENEFICIOS.HTML *******/
@@ -844,7 +673,6 @@ header{
     padding: 1.875rem 6.25rem;
     object-fit: cover;
     border-radius: 3.125rem;
-    /* transition: 1s; */
 }
 
 .car-b img{
@@ -914,5 +742,72 @@ header{
 }
 
 .testimoniales-escritos{
+    margin-top: 1.25rem;
+}
+
+/******* CONTENIDO.HTML *******/
+
+.main-contenido{
+    margin: 1.875rem;
+}
+
+.main-contenido h3{
+    font-size: 2.1875rem;
+    font-weight: bold;
+}
+
+.main-contenido p{
+    font-size: 1.125rem;
+    padding: .625rem .625rem .125rem 0rem;
+}
+
+.webinar-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.webinar-video{
+    display: flex;
+    justify-content: center;
+}
+
+.podcast-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.podcast-spotify{
+    display: flex;
+    justify-content: center;
+}
+
+.news-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.news-flex{
+    display: flex;
+}
+
+.news-img{
+    width: 50%;
+    margin: .625rem 6.25rem;
+}
+
+.news-img a img{
+    width: 31.25rem;
+}
+
+.news-mensual{
+    width: 50%;
+    text-align: right;
+    margin: .625rem 3.125rem;
+}
+
+.news-mensual h4{
+    font-size: 6.25rem;
+}
+
+.news-mensual article{
+    font-size: 1.875rem;
+    font-weight: 300;
     margin-top: 1.25rem;
 }
