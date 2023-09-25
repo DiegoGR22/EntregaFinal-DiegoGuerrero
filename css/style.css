@@ -8,36 +8,19 @@
 /********** HEADER **********/
 
 header{
-    display: flex;
-    justify-content: space-between;
     background-color: whitesmoke;
     align-items: center;
-    padding: 1.5625rem 1.25rem;
+    padding: .625rem 0rem;
     position: sticky;
-    top: 0;
-    height: 6.25rem;
+    height: auto;
     border-bottom: solid 3px lightgray;
     z-index: 10000;
-}
-
-.logo{
-    width: 9.375rem;
-}
-
-.navbar{
-    display: flex;
-    list-style: none;
-    gap: 1.25rem;
-    align-content: center;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar li a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    /* font-family: 'Inria Sans', sans-serif; */
     font-weight: bolder;
     font-size: 1.25rem;
 }
