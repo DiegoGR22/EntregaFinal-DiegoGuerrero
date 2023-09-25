@@ -692,47 +692,108 @@ header{
 
 /******* CLIENTES.HTML *******/
 
-.main-clientes{
-    margin: 1.25rem 4.375rem;
+.clientes-principal{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+    "ct cd";
+    padding: 1.875rem 3.125rem .625rem 3.125rem;
+}
+
+.clientes-texto{
+    grid-area: ct;
 }
 
 .clientes-principal h2{
-    font-size: 2.5rem;
-    padding-bottom: 1.875rem;
+    font-size: 4.375rem;
     font-weight: bolder;
 }
 
 .clientes-principal p{
+    width: 100%;
     font-size: 1.25rem;
-    padding-bottom: 1.875rem;
+    text-align: justify;
+    font-weight: lighter;
+    padding-bottom: 1.25rem;
 }
 
-.clientes-cinta{
-    padding-bottom: 3.125rem;
+.button-afiliarme{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.clientes-datos{
+    grid-area: cd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.clientes-datos div{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 11.25rem;
+    height: 11.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes-datos p{
+    text-align: center;
+    padding: 10%;
+    margin: 0;
 }
 
 .clientes-cinta h3{
     font-size: 1.875rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: .625rem;
     font-weight: bold;
 }
 
+.empresas-clientes{
+    padding: 1.875rem 6.25rem;
+}
+
 .empresas-clientes h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: end;
+}   
+
+.empresas-clientes h4{
     font-size: 1.875rem;
+    font-weight: normal;
+    text-align: end;
     padding-bottom: 1.875rem;
-    font-weight: bold;
 }   
 
 .empresas{
     display: flex;
-    gap: 3.125rem;
+    flex-direction: column;
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 1.875rem;
 }
 
 .empresas img{
-    width: 3.125rem;
+    width: 9.375rem;
+}
+
+.line{
+    width: 70%;
+    height: .3125rem;
+    background-color: black;
+}
+
+.empresas-logo{
+    display: flex;
+    gap: 5rem;
 }
 
 .testimoniales-clientes h3{
