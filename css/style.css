@@ -294,6 +294,85 @@ header{
     }
 }
 
+@media (max-width: 320px){
+    .principal{
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+    .principal h1{
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 0;
+        font-weight: bolder;
+    }
+    .principal p{
+        display: none;
+    }
+    .video{
+        width: 80%;
+    }
+    .video iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .frase-gancho p{
+        font-size: .9375rem;
+    }
+    .como-ayudamos{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .circulo{
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 6.25rem;
+    }
+    .circulo img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .ayudas p{
+        display: none;
+    }
+    .atraer-clientes{
+        height: auto;
+    }
+    .datos-clientes{
+        gap: 1.25rem;
+        margin: 0;
+        padding: 2.5rem 1.875rem;
+        flex-direction: column;
+    }
+    .cinta-giros{
+        display: none;
+    }
+    .testimoniales h2{
+        font-size: 1.875rem;
+        font-weight: bold;
+    }
+    .calltoaction-inscribirme{
+        flex-direction: column;
+        margin-top: 1.25rem;
+    }
+    .calltoaction-inscribirme p{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .calltoaction-inscribirme button{
+        width: 9.375rem;
+        height: 3.125rem;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .calltoaction-inscribirme button a{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
 /********** FOOTER **********/
 
 .footer-contacto{
@@ -437,21 +516,10 @@ header{
 }
 
 @media (max-width: 320px){
-
-    .footer-contacto{
-        height: auto;
-        flex-direction: column-reverse;
-    }
-    .contactanos{
-        width: 100%;
-    }
-    .formulario2{
-        width: 90%;
+    .aviso h6{
+        font-size: .5rem;
         margin: 0;
-        padding: 0% 5%;
-    }
-    .formulario{
-        margin: 20px 0px;
+        padding-top: .9375rem;
     }
 }
 
