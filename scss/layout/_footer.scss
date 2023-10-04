@@ -1,0 +1,19 @@
+.footer-contacto{
+    display: flex;
+    flex-direction: row;
+    background-color: #064B7DDE;
+    height: 31.25rem;
+    /* padding: 1.25rem; */
+    color: whitesmoke;
+}
+
+.aviso {
+	background-color: #D9D9D9;
+	text-align: center;
+	font-size: small;
+	height: 2.5rem;
+	h6 {
+		padding: .625rem;
+		font-weight: 300;
+	}
+}
