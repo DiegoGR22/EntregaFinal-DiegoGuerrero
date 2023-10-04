@@ -1,0 +1,1138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+/********** HEADER **********/
+
+header{
+    background-color: whitesmoke;
+    align-items: center;
+    padding: .625rem 0rem;
+    position: sticky;
+    height: auto;
+    border-bottom: solid 3px lightgray;
+    z-index: 10000;
+}
+
+.navbar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+/********** MAIN **********/
+
+.section-principal{
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 30rem;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+    color: whitesmoke;
+    padding: 3.125rem;
+}
+
+.principal h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.principal p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.video{
+    margin: 1.25rem;
+    padding: 3.125rem;
+}
+
+.frase-gancho{
+    width: 100%;
+    height: 15.625rem;
+    background-color: #064b7dd7;
+    padding: 4.6875rem 3.125rem;
+    height: auto;
+}
+
+.frase-gancho p{
+    text-align: center;
+    font-size: 1.3125rem;
+    color: whitesmoke;
+}
+
+.como-ayudamos{
+    display: flex;
+    height: 32.5rem;
+    margin-top: .625rem;
+    padding: 1.875rem;
+}
+
+.ayudas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo{
+    display: flex;
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: rgba(61, 145, 173, 0.787);
+    border-radius: 18.75rem;
+    margin-bottom: .9375rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo img{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+.ayudas p{
+    text-align: center;
+    margin: .9375rem;
+}
+
+.atraer-clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 135, 177, 0.856);
+    height: 11.875rem;
+}
+
+.datos-clientes{
+    display: flex;
+    list-style: none;
+    gap: 18.75rem;
+    color: whitesmoke;
+    font-size: 2.1875rem;
+    padding: 2.5rem 12.5rem;
+    text-align: center;
+}
+
+.cinta-giros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.731);
+    height: 4.375rem;
+    font-weight: bold;
+}
+
+.cinta-giros ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 2.5rem;
+}
+
+.cinta-giros ul li img{
+    width: 2.5rem;
+}
+
+.cinta-giros ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.giros{
+    margin: 0;
+    padding: 0;
+}
+
+.testimoniales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    /* margin-top: 1.875rem; */
+}
+
+.testimoniales h2{
+    font-size: 3.75rem;
+    letter-spacing: .3125rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.carousel-bootstrap{
+    width: 50%;
+    height: auto;   
+}
+
+.calltoaction-inscribirme{
+    display: flex;
+    align-items: center;
+    height: 9.375rem;
+    width: 100%;
+    margin-top: 3.125rem;
+}
+
+.calltoaction-inscribirme p{
+    font-size: 2.5rem;
+    width: 50%;
+    /* margin: 1.25rem; */
+    padding: 1.25rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-button{
+    display: flex;
+    width: 50%;
+    /* margin: 1.25rem; */
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.calltoaction-inscribirme button{
+    display: flex;
+    width: 31.25rem;
+    height: 6.25rem;
+    background-color: #07598C;;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.875rem;
+    align-items: center;
+}   
+
+.calltoaction-inscribirme button a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.4375rem;
+    padding: 1.25rem 5rem 1.25rem 6.25rem;
+    text-align: center;
+}
+
+.calltoaction-inscribirme button:hover {
+    background-color: #bb0606;
+}
+
+@media (min-width: 320px) and (max-width: 1207px){
+    .section-principal{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .principal{
+        padding: 2.5rem;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        color: black;
+        border-radius: 40px;
+    }
+    .video{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2.5rem;
+    }
+    .frase-gancho{
+        padding: 3.125rem;
+    }
+    .frase-gancho p{
+        margin: 0;
+    }
+    .como-ayudamos{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0;
+    }
+    .ayudas{
+        padding: .9375rem 3.75rem;
+    }
+    .circulo{
+        margin: 0;
+    }
+    .ayudas p{
+        padding: 0rem 3.125rem;
+    }
+    .datos-clientes{
+        gap: 4.375rem;
+        margin: 0;
+        padding: 2.5rem 6.25rem;
+    }
+    .cinta-giros{
+        display: none;
+    }
+    .carousel-bootstrap{
+        width: 80%;
+    }
+    .calltoaction-inscribirme p{
+        font-size: 1.5rem;
+    }
+    .calltoaction-inscribirme button{
+        width: 18.75rem;
+        height: 4.375rem;
+        justify-content: center;
+    }
+    .calltoaction-inscribirme button a{
+        font-size: 1.875rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px){
+    .principal{
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+    .principal h1{
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 0;
+        font-weight: bolder;
+    }
+    .principal p{
+        display: none;
+    }
+    .video{
+        width: 80%;
+    }
+    .video iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .frase-gancho p{
+        font-size: .9375rem;
+    }
+    .como-ayudamos{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .circulo{
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 6.25rem;
+    }
+    .circulo img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .ayudas p{
+        display: none;
+    }
+    .atraer-clientes{
+        height: auto;
+    }
+    .datos-clientes{
+        gap: 1.25rem;
+        margin: 0;
+        padding: 2.5rem 1.875rem;
+        flex-direction: column;
+    }
+    .cinta-giros{
+        display: none;
+    }
+    .testimoniales h2{
+        font-size: 1.875rem;
+        font-weight: bold;
+    }
+    .calltoaction-inscribirme{
+        flex-direction: column;
+        margin-top: 1.25rem;
+    }
+    .calltoaction-inscribirme p{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .calltoaction-inscribirme button{
+        width: 9.375rem;
+        height: 3.125rem;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .calltoaction-inscribirme button a{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+/********** FOOTER **********/
+
+.footer-contacto{
+    display: flex;
+    flex-direction: row;
+    background-color: #064B7DDE;
+    height: 31.25rem;
+    /* padding: 1.25rem; */
+    color: whitesmoke;
+}
+
+.contactanos{
+    width: 60%;
+    padding: 1.25rem;
+}
+
+.contactanos h2{
+    font-size: 2.5rem;
+}
+
+.contactanos p{
+    font-size: 1.25rem;
+}
+
+.contactanos img{
+    width: 12.5rem;
+    margin-top: 1.25rem;
+}
+
+.fcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.link-arbol{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: .9375rem;
+    justify-content: center;
+}
+
+.redes img{
+    width: 3.125rem;
+    margin-top: .625rem;
+}
+
+.formulario2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 28.125rem;
+    gap: .3125rem;
+    margin-top: 1.25rem;
+}
+
+.form-box{
+    background-color: #1a446261;
+    height: 3.125rem;
+    gap: 1.25rem;
+    border: none;
+    border-radius: 3.125rem;
+    fill: rgba(0, 0, 0, 0.31);
+    /* mix-blend-mode: multiply; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: whitesmoke;
+    font-size: 1.25rem;
+    padding-left: 1.25rem;
+}   
+
+.form-box::placeholder{
+    color: rgba(245, 245, 245, 0.254);
+    font-size: 1.25rem;
+    font-family: 'Inria Sans' sans-serif;
+    padding-left: 1.25rem;
+}
+
+.form-textarea{
+    padding-top: .9375rem;
+    margin-top: .3125rem;
+    height: 12.5rem;
+    /* border-radius: 1.25rem; */
+}
+
+.send-button{
+    background-color: #62A4CE;
+    width: 9.375rem;
+    height: 1.875rem;
+    margin-top: 1.25rem;
+    border: none;
+    border-radius: 3.125rem;
+    fill: rgba(117, 185, 226, 0.76);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: whitesmoke;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.send-button:hover{
+    background-color: #bb0606;
+}
+
+.aviso{
+    background-color: #D9D9D9;;
+    text-align: center;
+    /* padding: .1875rem; */
+    font-size: small;
+    height: 2.5rem;
+}
+
+.aviso h6{
+    padding: .625rem;
+    font-weight: 300;
+}
+
+@media (min-width: 320px) and (max-width: 1119px){
+    .footer-contacto{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .contactanos{
+        width: 100%;
+    }
+    .formulario2{
+        width: 90%;
+        margin: 0;
+        padding: 0% 5%;
+    }
+    .formulario{
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 320px){
+    .aviso h6{
+        font-size: .5rem;
+        margin: 0;
+        padding-top: .9375rem;
+    }
+}
+
+
+/******* NOSOTROS.HTML *******/
+
+.acerca-de-nosotros{
+    display: flex;
+    height: 25rem;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+    color: black;
+    padding: 3.125rem;
+}
+
+.about-us h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.video-nosotros{
+    margin: 1.25rem;
+    padding: 3.125rem;
+}
+
+.frase-nosotros{
+    width: 100%;
+    height: 10.625rem;
+    background-image: url(../assets/img/personas-nosotroshtml.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1.875rem 25rem;
+    margin-bottom: 1.25rem;
+}
+
+.frase-nosotros p{
+    text-align: center;
+    font-size: 1.3125rem;
+    color: black;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.texto-equipo{
+    margin: 1.25rem 1.875rem;
+}
+
+.texto-equipo h2{
+    font-size: 2.5rem;
+    letter-spacing: .1875rem;
+    padding-bottom: .625rem;
+    font-weight: bold;
+}
+
+.texto-equipo p{
+    font-size: .9375rem;
+    padding-right: 3.125rem;
+}
+
+.card img{
+    height: 21.875rem; object-fit: cover; 
+    border-radius: 1.875rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-body h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: .9375rem;
+}
+
+/******* BENEFICIOS.HTML *******/
+
+.beneficios-texto{
+    margin: 2.5rem;
+}
+
+.beneficios-texto p{
+    text-align: center;
+    padding: 0rem 6.25rem;
+    font-size: 1.25rem;
+    margin: 0px;
+}
+
+.beneficios-ofrecemos h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 1.875rem;
+}
+
+.beneficios-grid{
+    display: grid;
+    justify-content: center;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3,18.75rem);
+    grid-template-rows: repeat(2,18.75rem);
+    grid-template-areas: 
+    "b1 b2 b3"
+    "b4 b5 b6"
+    ;
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.b1{
+    grid-area: b1;
+}
+
+.b2{
+    grid-area: b2;
+}
+
+.b3{
+    grid-area: b3;
+}
+
+.b4{
+    grid-area: b4;
+}
+
+.b5{
+    grid-area: b5;
+}
+
+.b6{
+    grid-area: b6;
+}
+
+.faqs{
+    margin: 2.5rem 4.375rem;
+}
+
+.faqs h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.accordion-button{
+    background-color: #1170ab;
+    color: snow;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.beneficios-final{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "bf-1 bf-2"
+    "bf-3 bf-4";
+    margin: 1.875rem 4.375rem;
+    gap: 1.25rem;
+    text-align: center;
+}   
+
+.bf-1{
+    grid-area: bf-1;
+}
+.bf-2{
+    grid-area: bf-2;
+}
+.bf-3{
+    grid-area: bf-3;
+}
+.bf-4{
+    grid-area: bf-4;
+}
+
+.beneficios-final h4{
+    font-weight: bold;
+}
+
+.beneficios-frase{
+    width: 100%;
+    height: 31.25rem;
+    padding: 1.875rem 6.25rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "b-img b-frase";
+    background-color: snow;
+    align-items: center;
+}
+
+.cta-solicitar{
+    margin: 0rem 4.375rem;
+}
+
+.cta-solicitar h3{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.cta-solicitar p{
+    font-size: 1.875rem;
+}
+
+.button-beneficios{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1.875rem;
+    grid-template-areas: 
+    "0 button";
+    justify-items: end;
+}
+
+.cta-solicitar button{
+    grid-area: button;
+    justify-content: center;
+    width: 31.25rem;
+    height: 6.25rem;
+    background-color: #07598C;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.875rem;
+    align-items: center;
+}   
+
+.cta-solicitar button a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.4375rem;
+    padding: 1.25rem 5rem 1.25rem 6.25rem;
+    text-align: center;
+}
+
+.cta-solicitar button:hover {
+    background-color: #bb0606;
+}
+
+.car-b{
+    grid-area: b-img;
+    height: 31.25rem;
+    padding: 1.875rem 6.25rem;
+    object-fit: cover;
+    border-radius: 3.125rem;
+}
+
+.car-b img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3.125rem;
+}
+
+.beneficios-frase p{
+    grid-area: b-frase;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 786px) and (min-width: 320px){
+    .beneficios-texto p{
+        padding: 0;
+        font-size: .625rem;
+    }
+    .beneficios-ofrecemos h3{
+        display: none;
+        font-size: 1.875rem;
+    }
+    .beneficios-grid{
+        display: none;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+        grid-template-areas: 
+        "b1 b2"
+        "b3 b4"
+        "b5 b6";
+        padding: 0rem .625rem;
+    }
+    .container-b{
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .faqs{
+        margin: 40px .625rem;
+    }
+    .faqs h3{
+        font-size: 1.5625rem;
+    }
+    .faqs p{
+        font-size: .625rem;
+    }
+    .beneficios-final{
+        display: none;
+    }
+    .beneficios-frase{
+        display: none;
+    }
+    .cta-solicitar{
+        margin: 0px 1.25rem;
+    }
+    .cta-solicitar h3{
+        font-size: 1.5625rem;
+    }
+    .cta-solicitar p{
+        font-size: .625rem;
+    }
+    .cta-solicitar button{
+        width: 12.5rem;
+        height: 3.125rem;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .cta-solicitar button a{
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 0;
+    }
+    .button-beneficios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/******* CLIENTES.HTML *******/
+
+.clientes-principal{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+    "ct cd";
+    padding: 1.875rem 3.125rem .625rem 3.125rem;
+}
+
+.clientes-texto{
+    grid-area: ct;
+}
+
+.clientes-principal h2{
+    font-size: 4.375rem;
+    font-weight: bolder;
+}
+
+.clientes-principal p{
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: justify;
+    font-weight: lighter;
+    padding-bottom: 1.25rem;
+}
+
+.button-afiliarme{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.clientes-datos{
+    grid-area: cd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.clientes-datos div{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 11.25rem;
+    height: 11.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes-datos p{
+    text-align: center;
+    padding: 10%;
+    margin: 0;
+}
+
+.clientes-cinta h3{
+    font-size: 1.875rem;
+    padding-bottom: .625rem;
+    font-weight: bold;
+}
+
+.empresas-clientes{
+    padding: 1.875rem 6.25rem;
+}
+
+.empresas-clientes h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: end;
+}   
+
+.empresas-clientes h4{
+    font-size: 1.875rem;
+    font-weight: normal;
+    text-align: end;
+    padding-bottom: 1.875rem;
+}   
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.875rem;
+}
+
+.empresas img{
+    width: 9.375rem;
+}
+
+.line{
+    width: 70%;
+    height: .3125rem;
+    background-color: black;
+}
+
+.empresas-logo{
+    display: flex;
+    gap: 5rem;
+}
+
+.testimoniales-clientes h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+.testimoniales-escritos{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+.title{
+    margin: 1.875rem
+}
+
+.title h2{
+    font-size: 2.5rem;
+    margin-bottom: .3125rem;
+    font-weight: bold;
+}
+
+.title .underline{
+    width: 100px;
+    height: 4px;
+    background-color: #134975;
+    margin: 0 auto;
+}
+
+.review{
+    width: 100%;
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem;
+    background-color: #12192c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+}
+
+.img-container img{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+}
+
+#author{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: snow;
+}
+
+#job{
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 10px;
+    color: lightskyblue;
+}
+
+#info{
+    height: 100px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn2{
+    text-decoration: none;
+    border-style: none;
+    font-size: 30px;
+    margin: 0 10px;
+    color: lightskyblue;
+    cursor: pointer;
+    background-color:#12192c;
+}
+
+/******* CONTENIDO.HTML *******/
+
+.main-contenido{
+    margin: 1.875rem;
+}
+
+.main-contenido h3{
+    font-size: 2.1875rem;
+    font-weight: bold;
+}
+
+.main-contenido p{
+    font-size: 1.125rem;
+    padding: .625rem .625rem .125rem 0rem;
+}
+
+.webinar-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.webinar-video{
+    display: flex;
+    justify-content: center;
+}
+
+.podcast-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.podcast-spotify{
+    display: flex;
+    justify-content: center;
+}
+
+.news-texto{
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+
+.news-flex{
+    display: flex;
+}
+
+.news-img{
+    width: 50%;
+    margin: .625rem 6.25rem;
+}
+
+.news-img a img{
+    width: 31.25rem;
+}
+
+.news-mensual{
+    width: 50%;
+    text-align: right;
+    margin: .625rem 3.125rem;
+}
+
+.news-mensual h4{
+    font-size: 6.25rem;
+}
+
+.news-mensual article{
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin-top: 1.25rem;
+}
