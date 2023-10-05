@@ -6,10 +6,10 @@
     justify-content: left;
     align-items: left;
     h2{
-        font-size: 2.5rem;
+        font-size: $font-5xl;
     }
     p{
-        font-size: 1.25rem;
+        font-size: $font-xl;
     }
     img{
         width: 12.5rem;
@@ -51,11 +51,11 @@
             /* mix-blend-mode: multiply; */
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
             color: whitesmoke;
-            font-size: 1.25rem;
+            font-size: $font-xl;
             padding-left: 1.25rem;
             &::placeholder{
                 color: rgba(245, 245, 245, 0.254);
-                font-size: 1.25rem;
+                font-size: $font-xl;
                 font-family: 'Inria Sans' sans-serif;
                 padding-left: 1.25rem;
             }
@@ -76,7 +76,7 @@
             fill: rgba(117, 185, 226, 0.76);
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             color: whitesmoke;
-            font-size: 1.25rem;
+            font-size: $font-xl;
             text-align: center;
             font-weight: bold;
             &:hover{

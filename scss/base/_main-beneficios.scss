@@ -3,7 +3,7 @@
     p{
         text-align: center;
         padding: 0rem 6.25rem;
-        font-size: 1.25rem;
+        font-size: $font-xl;
         margin: 0px;
     }
 }
@@ -12,7 +12,7 @@
     h3{
         text-align: center;
         font-weight: bold;
-        font-size: 60px;
+        font-size: $font-6xl;
         margin-bottom: 1.875rem;
     }
     .beneficios-grid{
@@ -63,14 +63,14 @@
 .faqs{
     margin: 2.5rem 4.375rem;
     h3{
-        font-size: 2.5rem;
+        font-size: $font-4xl;
         font-weight: bold;
     }
     .accordion-button{
     background-color: #1170ab;
     color: snow;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: $font-xl;
     font-weight: bold;
     }
 }
@@ -105,11 +105,11 @@
 .cta-solicitar{
     margin: 0rem 4.375rem;
     h3{
-        font-size: 3.125rem;
+        font-size: $font-5xl;
         font-weight: bold;
     }
     p{
-        font-size: 1.875rem;
+        font-size: $font-3xl;
     }
     .button-beneficios{
         display: grid;
@@ -134,7 +134,7 @@
             a{
                 text-decoration: none;
                 color: white;
-                font-size: 3.4375rem;
+                font-size: $font-5xl;
                 padding: 1.25rem 5rem 1.25rem 6.25rem;
                 text-align: center;
             }
@@ -155,7 +155,7 @@
     align-items: center;
     p{
         grid-area: b-frase;
-        font-size: 2.5rem;
+        font-size: $font-4xl;
         text-align: center;
         font-weight: bold;
         font-style: italic;

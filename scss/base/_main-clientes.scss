@@ -7,7 +7,7 @@
     .clientes-texto{
         grid-area: ct;
         h2{
-            font-size: 4.375rem;
+            font-size: $font-8xl;
             font-weight: bolder;
         }
         p{
@@ -49,7 +49,7 @@
 }
 
 .clientes-cinta h3{
-    font-size: 1.875rem;
+    font-size: $font-3xl;
     padding-bottom: .625rem;
     font-weight: bold;
 }
@@ -57,12 +57,12 @@
 .empresas-clientes{
     padding: 1.875rem 6.25rem;
     h3{
-        font-size: 2.5rem;
+        font-size: $font-5xl;
         font-weight: bolder;
         text-align: end;
     }
     h4{
-        font-size: 1.875rem;
+        font-size: $font-3xl;
         font-weight: normal;
         text-align: end;
         padding-bottom: 1.875rem;
@@ -90,7 +90,7 @@
 }
 
 .testimoniales-clientes h3{
-    font-size: 2.5rem;
+    font-size: $font-5xl;
     padding-bottom: 1.25rem;
     font-weight: bold;
 }
@@ -105,7 +105,7 @@
     .title{
         margin: 1.875rem;
         h2{
-            font-size: 2.5rem;
+            font-size: $font-5xl;
             margin-bottom: .3125rem;
             font-weight: bold;
         }
@@ -140,7 +140,7 @@
             }
         }
         #author{
-            font-size: 18px;
+            font-size: $font-lg;
             font-weight: 600;
             text-transform: capitalize;
             margin-top: 10px;
@@ -156,7 +156,7 @@
         
         #info{
             height: 100px;
-            font-size: 18px;
+            font-size: $font-lg;
             color: #fff;
             font-weight: 400;
             text-align: center;
@@ -166,7 +166,7 @@
         .btn2{
             text-decoration: none;
             border-style: none;
-            font-size: 30px;
+            font-size: $font-3xl;
             margin: 0 10px;
             color: lightskyblue;
             cursor: pointer;

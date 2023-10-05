@@ -45,7 +45,7 @@
 }
 .frase-gancho p {
   text-align: center;
-  font-size: 1.3125rem;
+  font-size: 1.25rem;
   color: whitesmoke;
 }
 
@@ -92,7 +92,7 @@
   list-style: none;
   gap: 18.75rem;
   color: whitesmoke;
-  font-size: 2.1875rem;
+  font-size: 2.25rem;
   padding: 2.5rem 12.5rem;
   text-align: center;
 }
@@ -152,7 +152,7 @@
 .testimoniales .calltoaction-inscribirme .div-button button a {
   text-decoration: none;
   color: white;
-  font-size: 3.4375rem;
+  font-size: 3rem;
   padding: 1.25rem 5rem 1.25rem 6.25rem;
   text-align: center;
 }
@@ -195,7 +195,7 @@
 }
 .frase-nosotros p {
   text-align: center;
-  font-size: 1.3125rem;
+  font-size: 1.25rem;
   color: black;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
@@ -217,7 +217,7 @@
   font-weight: bold;
 }
 .equipo .texto-equipo p {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   padding-right: 3.125rem;
 }
 
@@ -234,7 +234,7 @@
 .card .card-body p {
   text-align: center;
   font-weight: lighter;
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 
 .beneficios-texto {
@@ -250,7 +250,7 @@
 .beneficios-ofrecemos h3 {
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 3rem;
   margin-bottom: 1.875rem;
 }
 .beneficios-ofrecemos .beneficios-grid {
@@ -293,14 +293,14 @@
   margin: 2.5rem 4.375rem;
 }
 .faqs h3 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 .faqs .accordion-button {
   background-color: #1170ab;
   color: snow;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -333,7 +333,7 @@
   margin: 0rem 4.375rem;
 }
 .cta-solicitar h3 {
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .cta-solicitar p {
@@ -363,7 +363,7 @@
 .cta-solicitar .button-beneficios button a {
   text-decoration: none;
   color: white;
-  font-size: 3.4375rem;
+  font-size: 2.5rem;
   padding: 1.25rem 5rem 1.25rem 6.25rem;
   text-align: center;
 }
@@ -381,7 +381,7 @@
 }
 .beneficios-frase p {
   grid-area: b-frase;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   text-align: center;
   font-weight: bold;
   font-style: italic;
@@ -540,7 +540,7 @@
   box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
 }
 .testimoniales-escritos .review #author {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   text-transform: capitalize;
   margin-top: 10px;
@@ -554,7 +554,7 @@
 }
 .testimoniales-escritos .review #info {
   height: 100px;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -563,7 +563,7 @@
 .testimoniales-escritos .review .btn2 {
   text-decoration: none;
   border-style: none;
-  font-size: 30px;
+  font-size: 1.875rem;
   margin: 0 10px;
   color: lightskyblue;
   cursor: pointer;
@@ -577,7 +577,7 @@
   margin: 1.875rem 1.875rem 1.25rem 1.875rem;
 }
 .main-contenido .contenido-texto h3 {
-  font-size: 2.1875rem;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 .main-contenido .contenido-texto p {
@@ -604,10 +604,10 @@
   margin: 0.625rem 3.125rem;
 }
 .news-flex .news-mensual h4 {
-  font-size: 6.25rem;
+  font-size: 4.375rem;
 }
 .news-flex .news-mensual article {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-top: 1.25rem;
 }
@@ -633,10 +633,10 @@ header {
 .aviso {
   background-color: #D9D9D9;
   text-align: center;
-  font-size: small;
   height: 2.5rem;
 }
 .aviso h6 {
+  font-size: 1rem;
   padding: 0.625rem;
   font-weight: 300;
 }
@@ -847,7 +847,7 @@ header {
     height: 100%;
   }
   .frase-gancho p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
   .como-ayudamos {
     flex-direction: column;
@@ -922,7 +922,7 @@ header {
 }
 @media (max-width: 320px) {
   .aviso h6 {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     margin: 0;
     padding-top: 0.9375rem;
   }
@@ -930,7 +930,7 @@ header {
 @media (max-width: 786px) and (min-width: 320px) {
   .beneficios-texto p {
     padding: 0;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
   }
   .beneficios-ofrecemos h3 {
     display: none;
@@ -951,10 +951,10 @@ header {
     margin: 40px 0.625rem;
   }
   .faqs h3 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
   }
   .faqs p {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
   }
   .beneficios-final {
     display: none;
@@ -966,10 +966,10 @@ header {
     margin: 0px 1.25rem;
   }
   .cta-solicitar h3 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
   }
   .cta-solicitar p {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
   }
   .cta-solicitar button {
     width: 12.5rem;

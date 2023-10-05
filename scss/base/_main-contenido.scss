@@ -3,11 +3,11 @@
     .contenido-texto{
         margin: 1.875rem 1.875rem 1.25rem 1.875rem;
         h3{
-            font-size: 2.1875rem;
+            font-size: $font-4xl;
             font-weight: bold;
         }
         p{
-            font-size: 1.125rem;
+            font-size: $font-lg;
             padding: .625rem .625rem .125rem 0rem;
         }
     }
@@ -34,10 +34,10 @@
         text-align: right;
         margin: .625rem 3.125rem;
         h4{
-            font-size: 6.25rem;
+            font-size: $font-8xl;
         }
         article{
-            font-size: 1.875rem;
+            font-size: $font-2xl;
             font-weight: 300;
             margin-top: 1.25rem;
         }

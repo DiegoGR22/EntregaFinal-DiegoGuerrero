@@ -3,13 +3,13 @@
 	.beneficios-texto {
 		p {
 			padding: 0;
-			font-size: .625rem;
+			font-size: $font-xs;
 		}
 	}
 	.beneficios-ofrecemos {
 		h3 {
 			display: none;
-			font-size: 1.875rem;
+			font-size: $font-3xl;
 		}
 	}
 	.beneficios-grid {
@@ -26,10 +26,10 @@
 	.faqs {
 		margin: 40px .625rem;
 		h3 {
-			font-size: 1.5625rem;
+			font-size: $font-2xl;
 		}
 		p {
-			font-size: .625rem;
+			font-size: $font-xs;
 		}
 	}
 	.beneficios-final {
@@ -41,10 +41,10 @@
 	.cta-solicitar {
 		margin: 0px 1.25rem;
 		h3 {
-			font-size: 1.5625rem;
+			font-size: $font-2xl;
 		}
 		p {
-			font-size: .625rem;
+			font-size: $font-xs;
 		}
 		button {
 			width: 12.5rem;
@@ -53,7 +53,7 @@
 			justify-content: center;
 			padding: 0;
 			a {
-				font-size: 1.25rem;
+				font-size: $font-xl;
 				text-align: center;
 				padding: 0;
 			}

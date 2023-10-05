@@ -10,12 +10,12 @@
         h1{
             text-align: center;
             font-weight: bold;
-            font-size: 2.5rem;
+            font-size: $font-5xl;
             padding-bottom: 2.5rem;
         }
         p{
             text-align: center;
-            font-size: 1.25rem;
+            font-size: $font-xl;
         }
     }
     .video-nosotros{
@@ -35,7 +35,7 @@
     margin-bottom: 1.25rem;
     p{
         text-align: center;
-        font-size: 1.3125rem;
+        font-size: $font-xl;
         color: black;
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px);
@@ -50,13 +50,13 @@
     .texto-equipo{
         margin: 1.25rem 1.875rem;
         h2{
-            font-size: 2.5rem;
+            font-size:$font-5xl;
             letter-spacing: .1875rem;
             padding-bottom: .625rem;
             font-weight: bold;
         }
         p{
-            font-size: .9375rem;
+            font-size: $font-md;
             padding-right: 3.125rem;
         }
     }
@@ -76,7 +76,7 @@
         p{
             text-align: center;
             font-weight: lighter;
-            font-size: .9375rem;
+            font-size: $font-md;
         }
     }
 }
