@@ -262,6 +262,169 @@
   font-size: 0.9375rem;
 }
 
+.beneficios-texto {
+  margin: 2.5rem;
+}
+.beneficios-texto p {
+  text-align: center;
+  padding: 0rem 6.25rem;
+  font-size: 1.25rem;
+  margin: 0px;
+}
+
+.beneficios-ofrecemos h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 1.875rem;
+}
+.beneficios-ofrecemos .beneficios-grid {
+  display: grid;
+  justify-content: center;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 18.75rem);
+  grid-template-rows: repeat(2, 18.75rem);
+  grid-template-areas: "b1 b2 b3" "b4 b5 b6";
+}
+.beneficios-ofrecemos .beneficios-grid .container-b {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.beneficios-ofrecemos .beneficios-grid .b1 {
+  grid-area: b1;
+}
+.beneficios-ofrecemos .beneficios-grid .b2 {
+  grid-area: b2;
+}
+.beneficios-ofrecemos .beneficios-grid .b3 {
+  grid-area: b3;
+}
+.beneficios-ofrecemos .beneficios-grid .b4 {
+  grid-area: b4;
+}
+.beneficios-ofrecemos .beneficios-grid .b5 {
+  grid-area: b5;
+}
+.beneficios-ofrecemos .beneficios-grid .b6 {
+  grid-area: b6;
+}
+
+.faqs {
+  margin: 2.5rem 4.375rem;
+}
+.faqs h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.faqs .accordion-button {
+  background-color: #1170ab;
+  color: snow;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.beneficios-final {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "bf-1 bf-2" "bf-3 bf-4";
+  margin: 1.875rem 4.375rem;
+  gap: 1.25rem;
+  text-align: center;
+}
+.beneficios-final .bf-1 {
+  grid-area: bf-1;
+}
+.beneficios-final .bf-2 {
+  grid-area: bf-2;
+}
+.beneficios-final .bf-3 {
+  grid-area: bf-3;
+}
+.beneficios-final .bf-4 {
+  grid-area: bf-4;
+}
+.beneficios-final h4 {
+  font-weight: bold;
+}
+
+.cta-solicitar {
+  margin: 0rem 4.375rem;
+}
+.cta-solicitar h3 {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+.cta-solicitar p {
+  font-size: 1.875rem;
+}
+.cta-solicitar .button-beneficios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.875rem;
+  grid-template-areas: "0 button";
+  justify-items: end;
+}
+.cta-solicitar .button-beneficios button {
+  grid-area: button;
+  justify-content: center;
+  width: 31.25rem;
+  height: 6.25rem;
+  background-color: #07598C;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 1.875rem;
+  align-items: center;
+}
+.cta-solicitar .button-beneficios button:hover {
+  background-color: #bb0606;
+}
+.cta-solicitar .button-beneficios button a {
+  text-decoration: none;
+  color: white;
+  font-size: 3.4375rem;
+  padding: 1.25rem 5rem 1.25rem 6.25rem;
+  text-align: center;
+}
+
+.beneficios-frase {
+  width: 100%;
+  height: 31.25rem;
+  padding: 1.875rem 6.25rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-template-areas: "b-img b-frase";
+  background-color: snow;
+  align-items: center;
+}
+.beneficios-frase p {
+  grid-area: b-frase;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.beneficios-frase .car-b {
+  grid-area: b-img;
+  height: 31.25rem;
+  padding: 1.875rem 6.25rem;
+  object-fit: cover;
+  border-radius: 3.125rem;
+}
+.beneficios-frase .car-b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3.125rem;
+}
+
 header {
   background-color: whitesmoke;
   align-items: center;
