@@ -75,7 +75,7 @@
 			font-size: $font-xl;
 			padding: 0;
 			margin: 0;
-			font-weight: bolder;
+			font-weight: $font-black;
 		}
 		p {
 			display: none;
@@ -126,7 +126,7 @@
 	.testimoniales {
 		h2 {
 			font-size: $font-3xl;
-			font-weight: bold;
+			font-weight: $font-bold;
 		}
 	}
 	.calltoaction-inscribirme {

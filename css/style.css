@@ -23,7 +23,7 @@
 }
 .section-principal .principal h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.5rem;
   padding-bottom: 2.5rem;
 }
@@ -170,7 +170,7 @@
 }
 .acerca-de-nosotros .about-us h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.5rem;
   padding-bottom: 2.5rem;
 }
@@ -214,7 +214,7 @@
   font-size: 2.5rem;
   letter-spacing: 0.1875rem;
   padding-bottom: 0.625rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .equipo .texto-equipo p {
   font-size: 1rem;
@@ -229,11 +229,11 @@
 }
 .card .card-body h5 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
 .card .card-body p {
   text-align: center;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 1rem;
 }
 
@@ -249,7 +249,7 @@
 
 .beneficios-ofrecemos h3 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3rem;
   margin-bottom: 1.875rem;
 }
@@ -294,14 +294,14 @@
 }
 .faqs h3 {
   font-size: 2.25rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .faqs .accordion-button {
   background-color: #1170ab;
   color: snow;
   text-transform: uppercase;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .beneficios-final {
@@ -326,7 +326,7 @@
   grid-area: bf-4;
 }
 .beneficios-final h4 {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .cta-solicitar {
@@ -334,7 +334,7 @@
 }
 .cta-solicitar h3 {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .cta-solicitar p {
   font-size: 1.875rem;
@@ -383,7 +383,7 @@
   grid-area: b-frase;
   font-size: 2.25rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
 }
 .beneficios-frase .car-b {
@@ -411,13 +411,13 @@
 }
 .clientes-principal .clientes-texto h2 {
   font-size: 4.375rem;
-  font-weight: bolder;
+  font-weight: 900;
 }
 .clientes-principal .clientes-texto p {
   width: 100%;
   font-size: 1.25rem;
   text-align: justify;
-  font-weight: lighter;
+  font-weight: 300;
   padding-bottom: 1.25rem;
 }
 .clientes-principal .clientes-texto .button-afiliarme {
@@ -452,7 +452,7 @@
 .clientes-cinta h3 {
   font-size: 1.875rem;
   padding-bottom: 0.625rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .empresas-clientes {
@@ -460,12 +460,12 @@
 }
 .empresas-clientes h3 {
   font-size: 2.5rem;
-  font-weight: bolder;
+  font-weight: 900;
   text-align: end;
 }
 .empresas-clientes h4 {
   font-size: 1.875rem;
-  font-weight: normal;
+  font-weight: 400;
   text-align: end;
   padding-bottom: 1.875rem;
 }
@@ -493,7 +493,7 @@
 .testimoniales-clientes h3 {
   font-size: 2.5rem;
   padding-bottom: 1.25rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .testimoniales-escritos {
@@ -510,7 +510,7 @@
 .testimoniales-escritos .title h2 {
   font-size: 2.5rem;
   margin-bottom: 0.3125rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .testimoniales-escritos .title .underline {
   width: 100px;
@@ -578,7 +578,7 @@
 }
 .main-contenido .contenido-texto h3 {
   font-size: 2.25rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .main-contenido .contenido-texto p {
   font-size: 1.125rem;
@@ -645,7 +645,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 1.25rem;
 }
 
@@ -729,7 +729,7 @@ header {
   color: whitesmoke;
   font-size: 1.25rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
 .formulario .formulario2 .send-button:hover {
   background-color: #bb0606;
@@ -741,7 +741,7 @@ header {
   align-items: center;
   background-color: rgba(211, 211, 211, 0.731);
   height: 4.375rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .cinta-giros ul {
   display: flex;
@@ -834,7 +834,7 @@ header {
     font-size: 1.25rem;
     padding: 0;
     margin: 0;
-    font-weight: bolder;
+    font-weight: 900;
   }
   .principal p {
     display: none;
@@ -879,7 +879,7 @@ header {
   }
   .testimoniales h2 {
     font-size: 1.875rem;
-    font-weight: bold;
+    font-weight: 700;
   }
   .calltoaction-inscribirme {
     flex-direction: column;

@@ -9,7 +9,7 @@
         padding: 3.125rem;
         h1{
             text-align: center;
-            font-weight: bold;
+            font-weight: $font-bold;
             font-size: $font-5xl;
             padding-bottom: 2.5rem;
         }
@@ -53,7 +53,7 @@
             font-size:$font-5xl;
             letter-spacing: .1875rem;
             padding-bottom: .625rem;
-            font-weight: bold;
+            font-weight: $font-bold;
         }
         p{
             font-size: $font-md;
@@ -71,11 +71,11 @@
     .card-body{
         h5{
             text-align: center;
-            font-weight: bold;
+            font-weight: $font-bold;
         }
         p{
             text-align: center;
-            font-weight: lighter;
+            font-weight: $font-light;
             font-size: $font-md;
         }
     }

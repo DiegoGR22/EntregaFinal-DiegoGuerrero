@@ -4,7 +4,7 @@
         margin: 1.875rem 1.875rem 1.25rem 1.875rem;
         h3{
             font-size: $font-4xl;
-            font-weight: bold;
+            font-weight: $font-bold;
         }
         p{
             font-size: $font-lg;
@@ -38,7 +38,7 @@
         }
         article{
             font-size: $font-2xl;
-            font-weight: 300;
+            font-weight: $font-light;
             margin-top: 1.25rem;
         }
     }
