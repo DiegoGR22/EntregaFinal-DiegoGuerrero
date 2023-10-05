@@ -182,6 +182,86 @@
   text-align: center;
 }
 
+.acerca-de-nosotros {
+  display: flex;
+  height: 25rem;
+}
+.acerca-de-nosotros .about-us {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem;
+  color: black;
+  padding: 3.125rem;
+}
+.acerca-de-nosotros .about-us h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.acerca-de-nosotros .about-us p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+.acerca-de-nosotros .video-nosotros {
+  margin: 1.25rem;
+  padding: 3.125rem;
+}
+
+.frase-nosotros {
+  width: 100%;
+  height: 10.625rem;
+  background-image: url(../assets/img/personas-nosotroshtml.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 1.875rem 25rem;
+  margin-bottom: 1.25rem;
+}
+.frase-nosotros p {
+  text-align: center;
+  font-size: 1.3125rem;
+  color: black;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.equipo .texto-equipo {
+  margin: 1.25rem 1.875rem;
+}
+.equipo .texto-equipo h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1875rem;
+  padding-bottom: 0.625rem;
+  font-weight: bold;
+}
+.equipo .texto-equipo p {
+  font-size: 0.9375rem;
+  padding-right: 3.125rem;
+}
+
+.card img {
+  height: 21.875rem;
+  object-fit: cover;
+  border-radius: 1.875rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.card .card-body h5 {
+  text-align: center;
+  font-weight: bold;
+}
+.card .card-body p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.9375rem;
+}
+
 header {
   background-color: whitesmoke;
   align-items: center;
