@@ -96,31 +96,6 @@
   padding: 2.5rem 12.5rem;
   text-align: center;
 }
-.gancho-clientes .cinta-giros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(211, 211, 211, 0.731);
-  height: 4.375rem;
-  font-weight: bold;
-}
-.gancho-clientes .cinta-giros ul {
-  display: flex;
-  list-style: none;
-  text-transform: uppercase;
-  gap: 2.5rem;
-  margin: 0;
-  padding: 0;
-}
-.gancho-clientes .cinta-giros ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-.gancho-clientes .cinta-giros ul li img {
-  width: 2.5rem;
-}
 
 .testimoniales {
   display: flex;
@@ -425,6 +400,176 @@
   border-radius: 3.125rem;
 }
 
+.clientes-principal {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-areas: "ct cd";
+  padding: 1.875rem 3.125rem 0.625rem 3.125rem;
+}
+.clientes-principal .clientes-texto {
+  grid-area: ct;
+}
+.clientes-principal .clientes-texto h2 {
+  font-size: 4.375rem;
+  font-weight: bolder;
+}
+.clientes-principal .clientes-texto p {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: justify;
+  font-weight: lighter;
+  padding-bottom: 1.25rem;
+}
+.clientes-principal .clientes-texto .button-afiliarme {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.clientes-principal .clientes-datos {
+  grid-area: cd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.5rem;
+}
+.clientes-principal .clientes-datos div {
+  display: flex;
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 11.25rem;
+  height: 11.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.clientes-principal .clientes-datos div p {
+  text-align: center;
+  padding: 10%;
+  margin: 0;
+}
+
+.clientes-cinta h3 {
+  font-size: 1.875rem;
+  padding-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+.empresas-clientes {
+  padding: 1.875rem 6.25rem;
+}
+.empresas-clientes h3 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: end;
+}
+.empresas-clientes h4 {
+  font-size: 1.875rem;
+  font-weight: normal;
+  text-align: end;
+  padding-bottom: 1.875rem;
+}
+.empresas-clientes .empresas {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.875rem;
+}
+.empresas-clientes .empresas .empresas-logo {
+  display: flex;
+  gap: 5rem;
+}
+.empresas-clientes .empresas .empresas-logo img {
+  width: 9.375rem;
+}
+.empresas-clientes .empresas .line {
+  width: 70%;
+  height: 0.3125rem;
+  background-color: black;
+}
+
+.testimoniales-clientes h3 {
+  font-size: 2.5rem;
+  padding-bottom: 1.25rem;
+  font-weight: bold;
+}
+
+.testimoniales-escritos {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem;
+}
+.testimoniales-escritos .title {
+  margin: 1.875rem;
+}
+.testimoniales-escritos .title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3125rem;
+  font-weight: bold;
+}
+.testimoniales-escritos .title .underline {
+  width: 100px;
+  height: 4px;
+  background-color: #134975;
+  margin: 0 auto;
+}
+.testimoniales-escritos .review {
+  width: 100%;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem;
+  background-color: #12192c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+}
+.testimoniales-escritos .review .img-container img {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+}
+.testimoniales-escritos .review #author {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: snow;
+}
+.testimoniales-escritos .review #job {
+  text-transform: uppercase;
+  line-height: 150%;
+  margin-bottom: 10px;
+  color: lightskyblue;
+}
+.testimoniales-escritos .review #info {
+  height: 100px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testimoniales-escritos .review .btn2 {
+  text-decoration: none;
+  border-style: none;
+  font-size: 30px;
+  margin: 0 10px;
+  color: lightskyblue;
+  cursor: pointer;
+  background-color: #12192c;
+}
+
 header {
   background-color: whitesmoke;
   align-items: center;
@@ -546,6 +691,32 @@ header {
 }
 .formulario .formulario2 .send-button:hover {
   background-color: #bb0606;
+}
+
+.cinta-giros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.731);
+  height: 4.375rem;
+  font-weight: bold;
+}
+.cinta-giros ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+.cinta-giros ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cinta-giros ul li img {
+  width: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
