@@ -570,6 +570,48 @@
   background-color: #12192c;
 }
 
+.main-contenido {
+  margin: 1.875rem;
+}
+.main-contenido .contenido-texto {
+  margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+}
+.main-contenido .contenido-texto h3 {
+  font-size: 2.1875rem;
+  font-weight: bold;
+}
+.main-contenido .contenido-texto p {
+  font-size: 1.125rem;
+  padding: 0.625rem 0.625rem 0.125rem 0rem;
+}
+.main-contenido .webinar-video, .main-contenido .podcast-spotify {
+  display: flex;
+  justify-content: center;
+}
+.news-flex {
+  display: flex;
+}
+.news-flex .news-img {
+  width: 50%;
+  margin: 0.625rem 6.25rem;
+}
+.news-flex .news-img img {
+  width: 31.25rem;
+}
+.news-flex .news-mensual {
+  width: 50%;
+  text-align: right;
+  margin: 0.625rem 3.125rem;
+}
+.news-flex .news-mensual h4 {
+  font-size: 6.25rem;
+}
+.news-flex .news-mensual article {
+  font-size: 1.875rem;
+  font-weight: 300;
+  margin-top: 1.25rem;
+}
+
 header {
   background-color: whitesmoke;
   align-items: center;

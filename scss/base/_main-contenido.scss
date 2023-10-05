@@ -1,0 +1,45 @@
+.main-contenido{
+    margin: 1.875rem;
+    .contenido-texto{
+        margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+        h3{
+            font-size: 2.1875rem;
+            font-weight: bold;
+        }
+        p{
+            font-size: 1.125rem;
+            padding: .625rem .625rem .125rem 0rem;
+        }
+    }
+    .webinar-video{
+        display: flex;
+        justify-content: center;
+    }
+    .podcast-spotify{
+        @extend .webinar-video
+    }
+}
+
+.news-flex{
+    display: flex;
+    .news-img{
+        width: 50%;
+        margin: .625rem 6.25rem;
+        img{
+            width: 31.25rem;
+        }
+    }
+    .news-mensual{
+        width: 50%;
+        text-align: right;
+        margin: .625rem 3.125rem;
+        h4{
+            font-size: 6.25rem;
+        }
+        article{
+            font-size: 1.875rem;
+            font-weight: 300;
+            margin-top: 1.25rem;
+        }
+    }
+}
