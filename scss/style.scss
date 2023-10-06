@@ -3,6 +3,7 @@
 
 // DESPUÉS BASE
 @import 'base/reset';
+@import 'base/base';
 @import 'base/main-index';
 @import 'base/main-nosotros';
 @import 'base/main-beneficios';
@@ -21,6 +22,9 @@
 
 // MEDIAS
 
-@import 'layout/medias/mq-index';
 @import 'layout/medias/mq-footer';
+@import 'layout/medias/mq-index';
+@import 'layout/medias/mq-nosotros';
 @import 'layout/medias/mq-beneficios';
+@import 'layout/medias/mq-clientes';
+@import 'layout/medias/mq-contenido';

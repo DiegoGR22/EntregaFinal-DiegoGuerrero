@@ -3,27 +3,23 @@
 	.footer-contacto {
 		height: auto;
 		flex-direction: column-reverse;
-	}
-	.contactanos {
-		width: 100%;
-	}
-	.formulario2 {
-		width: 90%;
-		margin: 0;
-		padding: 0% 5%;
-	}
-	.formulario {
-		margin: 20px 0px;
-	}
-}
-
-
-@media (max-width: 320px) {
-	.aviso {
-		h6 {
-			font-size: $font-xs;
-			margin: 0;
-			padding-top: .9375rem;
+		.contactanos {
+			width: 100%;
+		}
+		.formulario {
+			margin: 20px 0px;
+			.formulario2 {
+				width: 100%;
+				margin: 0;
+				padding: 0% 5%;
+				.send-button{
+					display: block;
+					width: 100%;
+					height: 3.125rem;
+					font-size: $font-3xl;
+					letter-spacing: 5px;
+				}
+			}
 		}
 	}
 }

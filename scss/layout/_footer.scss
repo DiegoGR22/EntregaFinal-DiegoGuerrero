@@ -15,5 +15,7 @@
 		font-size: $font-md;
 		padding: .625rem;
 		font-weight: $font-light;
+		// Quitamos el margin por defaul de bootstrap
+		margin: 0;
 	}
 }

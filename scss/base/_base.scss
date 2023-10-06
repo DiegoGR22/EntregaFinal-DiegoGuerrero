@@ -1,0 +1,14 @@
+html{
+    color-scheme: light;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    // overflow-y: auto;
+    // overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}

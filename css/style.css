@@ -5,6 +5,16 @@
   font-family: "Inria Sans", sans-serif;
 }
 
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 .section-principal {
   display: flex;
   background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
@@ -124,7 +134,7 @@
 .testimoniales .calltoaction-inscribirme p {
   font-size: 2.5rem;
   width: 50%;
-  /* margin: 1.25rem; */
+  margin: 0;
   padding: 1.25rem;
   justify-content: center;
   text-align: center;
@@ -159,7 +169,7 @@
 
 .acerca-de-nosotros {
   display: flex;
-  height: 25rem;
+  height: auto;
 }
 .acerca-de-nosotros .about-us {
   display: flex;
@@ -180,7 +190,7 @@
 }
 .acerca-de-nosotros .video-nosotros {
   margin: 1.25rem;
-  padding: 3.125rem;
+  padding: 0 3.125rem;
 }
 
 .frase-nosotros {
@@ -190,8 +200,10 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 1.875rem 25rem;
   margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .frase-nosotros p {
   text-align: center;
@@ -199,6 +211,8 @@
   color: black;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
+  margin: 0;
+  padding: 0 2.5rem;
 }
 
 .equipo {
@@ -219,6 +233,7 @@
 .equipo .texto-equipo p {
   font-size: 1rem;
   padding-right: 3.125rem;
+  text-align: justify;
 }
 
 .card img {
@@ -349,7 +364,7 @@
 .cta-solicitar .button-beneficios button {
   grid-area: button;
   justify-content: center;
-  width: 31.25rem;
+  width: 100%;
   height: 6.25rem;
   background-color: #07598C;
   border: none;
@@ -364,7 +379,6 @@
   text-decoration: none;
   color: white;
   font-size: 2.5rem;
-  padding: 1.25rem 5rem 1.25rem 6.25rem;
   text-align: center;
 }
 
@@ -402,6 +416,7 @@
 
 .clientes-principal {
   display: grid;
+  height: 100%;
   grid-template-columns: 70% 30%;
   grid-template-areas: "ct cd";
   padding: 1.875rem 3.125rem 0.625rem 3.125rem;
@@ -583,6 +598,7 @@
 .main-contenido .contenido-texto p {
   font-size: 1.125rem;
   padding: 0.625rem 0.625rem 0.125rem 0rem;
+  text-align: justify;
 }
 .main-contenido .webinar-video, .main-contenido .podcast-spotify {
   display: flex;
@@ -616,6 +632,7 @@ header {
   background-color: whitesmoke;
   align-items: center;
   padding: 0.625rem 0rem;
+  position: sticky;
   height: auto;
   border-bottom: solid 3px lightgray;
   z-index: 10000;
@@ -639,6 +656,7 @@ header {
   font-size: 1rem;
   padding: 0.625rem;
   font-weight: 300;
+  margin: 0;
 }
 
 .navbar li a {
@@ -762,6 +780,44 @@ header {
 }
 
 @media (min-width: 320px) and (max-width: 1207px) {
+  .cinta-giros {
+    width: 100%;
+  }
+  .cinta-giros ul {
+    gap: 0.9375rem;
+  }
+  .cinta-giros ul .giro-6 {
+    display: none;
+  }
+  .cinta-giros ul li {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 1119px) {
+  .footer-contacto {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .footer-contacto .contactanos {
+    width: 100%;
+  }
+  .footer-contacto .formulario {
+    margin: 20px 0px;
+  }
+  .footer-contacto .formulario .formulario2 {
+    width: 100%;
+    margin: 0;
+    padding: 0% 5%;
+  }
+  .footer-contacto .formulario .formulario2 .send-button {
+    display: block;
+    width: 100%;
+    height: 3.125rem;
+    font-size: 1.875rem;
+    letter-spacing: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1207px) {
   .section-principal {
     display: flex;
     flex-direction: column;
@@ -769,14 +825,14 @@ header {
     justify-content: center;
     align-items: center;
   }
-  .principal {
+  .section-principal .principal {
     padding: 2.5rem;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     color: black;
     border-radius: 40px;
   }
-  .video {
+  .section-principal .video {
     margin: 0;
     padding: 0;
     padding-bottom: 2.5rem;
@@ -792,35 +848,32 @@ header {
     height: auto;
     padding: 0;
   }
-  .ayudas {
+  .como-ayudamos .ayudas {
     padding: 0.9375rem 3.75rem;
   }
-  .ayudas p {
+  .como-ayudamos .ayudas .circulo {
+    margin: 0;
+  }
+  .como-ayudamos .ayudas p {
     padding: 0rem 3.125rem;
   }
-  .circulo {
-    margin: 0;
-  }
-  .datos-clientes {
+  .gancho-clientes .atraer-clientes .datos-clientes {
     gap: 4.375rem;
     margin: 0;
-    padding: 2.5rem 6.25rem;
+    padding: 2.5rem 5rem;
   }
-  .cinta-giros {
-    display: none;
-  }
-  .carousel-bootstrap {
+  .testimoniales .carousel-bootstrap {
     width: 80%;
   }
-  .calltoaction-inscribirme p {
+  .testimoniales .calltoaction-inscribirme p {
     font-size: 1.5rem;
   }
-  .calltoaction-inscribirme button {
-    width: 18.75rem;
+  .testimoniales .calltoaction-inscribirme .div-button button {
+    width: 100%;
     height: 4.375rem;
     justify-content: center;
   }
-  .calltoaction-inscribirme button a {
+  .testimoniales .calltoaction-inscribirme .div-button button a {
     font-size: 1.875rem;
     padding: 0;
   }
@@ -903,52 +956,46 @@ header {
     padding: 0;
   }
 }
-@media (min-width: 320px) and (max-width: 1119px) {
-  .footer-contacto {
+@media (min-width: 320px) and (max-width: 1207px) {
+  .acerca-de-nosotros {
+    flex-direction: column;
     height: auto;
-    flex-direction: column-reverse;
   }
-  .contactanos {
-    width: 100%;
+  .acerca-de-nosotros .about-us {
+    margin: auto;
   }
-  .formulario2 {
-    width: 90%;
-    margin: 0;
-    padding: 0% 5%;
+  .acerca-de-nosotros .video-nosotros {
+    margin: auto;
+    padding-bottom: 3.125rem;
   }
-  .formulario {
-    margin: 20px 0px;
+  .equipo .cont-cards {
+    margin-bottom: 1.25rem;
   }
-}
-@media (max-width: 320px) {
-  .aviso h6 {
-    font-size: 0.75rem;
-    margin: 0;
-    padding-top: 0.9375rem;
+  .equipo .cont-cards .card-3 {
+    display: none;
   }
 }
-@media (max-width: 786px) and (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 1207px) {
   .beneficios-texto p {
     padding: 0;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
   .beneficios-ofrecemos h3 {
-    display: none;
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
-  .beneficios-grid {
-    display: none;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
-    grid-template-areas: "b1 b2" "b3 b4" "b5 b6";
+  .beneficios-ofrecemos .beneficios-grid {
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-areas: "b1 b2 b3" "b4 b5 b6";
     padding: 0rem 0.625rem;
+    margin: 0 1.25rem;
   }
-  .container-b {
+  .beneficios-ofrecemos .container-b {
     width: 6.25rem;
     height: 6.25rem;
   }
   .faqs {
-    margin: 40px 0.625rem;
+    margin: 2.5rem 1.875rem;
   }
   .faqs h3 {
     font-size: 1.5rem;
@@ -956,37 +1003,96 @@ header {
   .faqs p {
     font-size: 0.75rem;
   }
-  .beneficios-final {
-    display: none;
-  }
-  .beneficios-frase {
-    display: none;
-  }
   .cta-solicitar {
-    margin: 0px 1.25rem;
+    margin: 0px 1.875rem;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
   }
   .cta-solicitar h3 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
   }
   .cta-solicitar p {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
-  .cta-solicitar button {
-    width: 12.5rem;
+  .cta-solicitar .button-beneficios {
+    margin-bottom: 1.5rem;
+    padding: 0 3.75rem;
+    display: block;
+  }
+  .cta-solicitar .button-beneficios button {
+    width: 100%;
     height: 3.125rem;
-    display: flex;
-    justify-content: center;
     padding: 0;
   }
-  .cta-solicitar button a {
-    font-size: 1.25rem;
+  .cta-solicitar .button-beneficios button a {
+    font-size: 1.5rem;
     text-align: center;
+    letter-spacing: 0.125rem;
     padding: 0;
   }
-  .button-beneficios {
-    display: flex;
+  .beneficios-frase {
+    display: block;
+    height: auto;
+  }
+  .beneficios-frase .bf-carousel {
+    display: none;
+  }
+  .beneficios-frase p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 1207px) {
+  .clientes-principal {
+    padding: 1.875rem 1.875rem;
+  }
+  .clientes-principal .clientes-texto {
+    padding-right: 0.625rem;
+  }
+  .clientes-principal .clientes-texto .button-afiliarme {
     justify-content: center;
-    align-items: center;
+  }
+  .clientes-principal .clientes-texto .button-afiliarme a {
+    width: 300px;
+    font-size: 1.875rem;
+    font-weight: 900;
+  }
+  .clientes-principal .clientes-datos {
+    justify-content: flex-end;
+    padding-bottom: 60px;
+  }
+  .clientes-cinta h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .empresas-clientes h3, .empresas-clientes h4 {
+    text-align: center;
+  }
+  .testimoniales-clientes h3 {
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 1207px) {
+  .main-contenido h3 {
+    text-align: center;
+  }
+  .main-contenido .podcast h3 {
+    font-size: 1.5rem;
+  }
+  .news-flex .news-img {
+    margin: 0;
+  }
+  .news-flex .news-img img {
+    width: 100%;
+  }
+  .news-flex .news-mensual {
+    margin: 0.625rem 1.25rem;
+  }
+  .news-flex .news-mensual h4 {
+    font-size: 3rem;
+  }
+  .news-flex .news-mensual article {
+    font-size: 1.25rem;
+    padding-left: 1.875rem;
   }
 }
 

@@ -23,3 +23,18 @@
         }
     }
 }
+
+@media (min-width: 320px) and (max-width: 1207px){
+    .cinta-giros{
+        width: 100%;
+        ul{
+            gap: .9375rem;
+            .giro-6{
+                display: none;
+            }
+            li{
+                font-size: $font-xs;
+            }
+        }
+    }
+}

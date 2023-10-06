@@ -1,0 +1,51 @@
+@media (min-width: 320px) and (max-width: 1207px){
+    .clientes-principal{
+        padding: 1.875rem 1.875rem;
+        // grid-template-rows: 100px 1fr;
+        // grid-template-areas: 
+        // "ct-h2 ct-h2"
+        // "ct cd";
+        .clientes-texto{
+            padding-right: .625rem;
+            // h2{
+            //     grid-area: ct-h2;
+            // }
+            // p{
+            //     grid-area: ct;
+            // }
+            .button-afiliarme{
+                justify-content: center;
+                a{
+                    width: 300px;
+                    font-size: $font-3xl;
+                    font-weight: $font-black;
+                }
+            }
+        }
+        .clientes-datos{
+            justify-content: flex-end;
+            padding-bottom: 60px;
+        }
+    }
+
+
+    .clientes-cinta{
+        h3{
+            font-size: $font-2xl;
+            text-align: center;
+        }
+    }
+
+    .empresas-clientes{
+        h3, h4{
+            text-align: center;
+        }
+    }
+
+    .testimoniales-clientes{
+        h3{
+            text-align: center;
+        }
+    }
+}
+

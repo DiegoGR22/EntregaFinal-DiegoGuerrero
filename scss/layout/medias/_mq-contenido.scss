@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 1207px){
+    .main-contenido{
+        h3{
+            text-align: center;
+        }
+        .podcast{
+            h3{
+                font-size: $font-2xl;
+            }
+        }
+    }
+
+    .news-flex{
+        .news-img{
+            margin: 0;
+            img{
+                width: 100%;
+            }
+        }
+        .news-mensual{
+            margin: .625rem 1.25rem;
+            h4{
+                font-size: $font-6xl;
+            }
+            article{
+                font-size: $font-xl;
+                padding-left: 1.875rem;
+            }
+        }
+    }
+}

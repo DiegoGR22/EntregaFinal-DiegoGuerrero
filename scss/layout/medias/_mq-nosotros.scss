@@ -1,0 +1,22 @@
+@media (min-width: 320px) and (max-width: 1207px){
+    .acerca-de-nosotros{
+        flex-direction: column;
+        height: auto;
+        .about-us{
+            margin: auto;
+        }
+        .video-nosotros{
+            margin: auto;
+            padding-bottom: 3.125rem;
+        }
+    }
+
+    .equipo{
+        .cont-cards{
+            margin-bottom: 1.25rem;
+            .card-3{
+                display: none;
+            }
+        }
+    }
+}
