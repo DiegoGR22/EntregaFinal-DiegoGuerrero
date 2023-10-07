@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 1207px) {
+@media (min-width: 600px) and (max-width: 1207px) {
 	.section-principal {
 		display: flex;
 		flex-direction: column;
@@ -45,8 +45,9 @@
 		.atraer-clientes{
 			.datos-clientes {
 				gap: 4.375rem;
-				margin: 0;
-				padding: 2.5rem 5rem;
+				margin: 0 40px;
+				padding: 0;
+				// padding: 5% 7%;
 			}
 		}
 	}
