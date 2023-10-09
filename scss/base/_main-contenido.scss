@@ -13,8 +13,7 @@
         }
     }
     .webinar-video{
-        display: flex;
-        justify-content: center;
+        @include flex(initial, center, unset, 0);
     }
     .podcast-spotify{
         @extend .webinar-video
@@ -22,7 +21,7 @@
 }
 
 .news-flex{
-    display: flex;
+    @include flex(initial, unset, unset, 0);
     .news-img{
         width: 50%;
         margin: .625rem 6.25rem;

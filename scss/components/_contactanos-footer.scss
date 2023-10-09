@@ -2,9 +2,7 @@
     width: 60%;
     padding: 1.25rem;
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    @include flex(column, left, left, 0);
     h2{
         font-size: $font-5xl;
     }
@@ -16,16 +14,12 @@
         margin-top: 1.25rem;
     }
     .link-arbol{
-        display: flex;
-        justify-content: center;
+        @include flex(initial, center, unset, 0);
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
     }
     .redes{
-        display: flex;
-        flex-direction: row;
-        gap: .9375rem;
-        justify-content: center;
+        @include flex(row, center, unset, .9375rem);
         img{
             width: 3.125rem;
             margin-top: .625rem;
@@ -35,11 +29,8 @@
 
 .formulario{
     .formulario2{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
+        @include flex(column, unset, left, .3125rem);
         width: 28.125rem;
-        gap: .3125rem;
         margin-top: 1.25rem;
         .form-box{
             background-color: #1a446261;

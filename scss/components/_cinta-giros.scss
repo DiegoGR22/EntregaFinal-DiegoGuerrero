@@ -1,23 +1,17 @@
 .cinta-giros{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(initial, center, center, 0);
     background-color: rgba(211, 211, 211, 0.731);
     height: 4.375rem;
     font-weight: $font-bold;
     ul{
-        display: flex;
+        @include flex(initial, unset, unset, 2.5rem);
         list-style: none;
         text-transform: uppercase;
-        gap: 2.5rem;
         margin: 0;
         margin: 0 .625rem;
         padding: 0;
         li{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: .5rem;
+            @include flex(initial, center, center, .5rem);
             img{
                 width: 2.5rem;
             }

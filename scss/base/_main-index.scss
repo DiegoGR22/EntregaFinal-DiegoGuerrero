@@ -1,5 +1,5 @@
 .section-principal{
-    display: flex;
+    @include flex(initial, unset, unset, 0);
     background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,8 +7,7 @@
     /* background-attachment: fixed; */
     height: 30rem;
     .principal{
-        display: flex;
-        flex-direction: column;
+        @include flex(column, unset, unset, 0);
         margin: 1.25rem;
         color: whitesmoke;
         padding: 3.125rem;
@@ -43,24 +42,19 @@
 }
 
 .como-ayudamos{
-    display: flex;
+    @include flex(initial, unset, unset, 0);
     height: 32.5rem;
     margin-top: .625rem;
     padding: 1.875rem;
     .ayudas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include flex(column, center, center, 0);
         .circulo{
-            display: flex;
+            @include flex(initial, center, center, 0);
             width: 18.75rem;
             height: 18.75rem;
             background-color: rgba(61, 145, 173, 0.787);
             border-radius: 18.75rem;
             margin-bottom: .9375rem;
-            justify-content: center;
-            align-items: center;
             img{
                 width: 9.375rem;
                 height: 9.375rem;
@@ -75,15 +69,12 @@
 
 .gancho-clientes{
     .atraer-clientes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(row, center, center, 0);
         background-color: rgba(20, 135, 177, 0.856);
         height: 11.875rem;
         .datos-clientes{
-            display: flex;
+            @include flex(initial, unset, unset, 18.75rem);
             list-style: none;
-            gap: 18.75rem;
             color: whitesmoke;
             font-size: $font-4xl;
             padding: 2.5rem 12.5rem;
@@ -93,9 +84,7 @@
 }
 
 .testimoniales{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, unset, center, 0);
     text-transform: uppercase;
     /* margin-top: 1.875rem; */
     h2{
@@ -109,34 +98,30 @@
         height: auto;   
     }
     .calltoaction-inscribirme{
-        display: flex;
-        align-items: center;
+        @include flex(initial, unset, center, 0);
         height: 9.375rem;
         width: 100%;
         margin-top: 3.125rem;
         p{
+            justify-content: center;
+            text-align: center;
             font-size: $font-5xl;
             width: 50%;
             margin: 0;
             padding: 1.25rem;
-            justify-content: center;
-            text-align: center;
         }
         .div-button{
-            display: flex;
+            @include flex(initial, center, unset, 0);
             width: 50%;
-            /* margin: 1.25rem; */
             padding: 1.25rem;
-            justify-content: center;
             button{
-                display: flex;
+                @include flex(initial, center, center, 0);
                 width: 31.25rem;
                 height: 6.25rem;
                 background-color: #07598C;;
                 border: none;
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
                 border-radius: 1.875rem;
-                align-items: center;
                 &:hover{
                     background-color: #bb0606;
                 }
@@ -144,7 +129,6 @@
                     text-decoration: none;
                     color: white;
                     font-size: $font-6xl;
-                    padding: 1.25rem 5rem 1.25rem 6.25rem;
                     text-align: center;
                 }
             }

@@ -1,6 +1,5 @@
 .footer-contacto{
-    display: flex;
-    flex-direction: row;
+	@include flex(row, unset, unset, 0);
     background-color: #064B7DDE;
     height: 31.25rem;
     /* padding: 1.25rem; */
