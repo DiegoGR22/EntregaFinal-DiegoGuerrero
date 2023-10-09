@@ -73,11 +73,10 @@
         background-color: rgba(20, 135, 177, 0.856);
         height: 11.875rem;
         .datos-clientes{
-            @include flex(initial, unset, unset, 18.75rem);
+            @include flex(initial, center, center, 18.75rem);
             list-style: none;
             color: whitesmoke;
             font-size: $font-4xl;
-            padding: 2.5rem 12.5rem;
             text-align: center;
         }
     }

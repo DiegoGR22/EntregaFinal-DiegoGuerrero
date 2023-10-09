@@ -116,13 +116,12 @@ body {
 .gancho-clientes .atraer-clientes .datos-clientes {
   display: flex;
   flex-direction: initial;
-  justify-content: unset;
-  align-items: unset;
+  justify-content: center;
+  align-items: center;
   gap: 18.75rem;
   list-style: none;
   color: whitesmoke;
   font-size: 2.25rem;
-  padding: 2.5rem 12.5rem;
   text-align: center;
 }
 
