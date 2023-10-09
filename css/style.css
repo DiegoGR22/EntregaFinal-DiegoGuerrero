@@ -1028,7 +1028,7 @@ header {
     margin: 0.625rem;
   }
 }
-@media (min-width: 320px) and (max-width: 1207px) {
+@media (min-width: 658px) and (max-width: 1207px) {
   .acerca-de-nosotros {
     flex-direction: column;
     height: auto;
@@ -1042,6 +1042,50 @@ header {
   }
   .equipo .cont-cards {
     margin-bottom: 1.25rem;
+  }
+  .equipo .cont-cards .card-3 {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 657px) {
+  .acerca-de-nosotros {
+    flex-direction: column;
+    height: auto;
+  }
+  .acerca-de-nosotros .about-us {
+    margin: auto;
+    padding: 1.25rem;
+  }
+  .acerca-de-nosotros .video-nosotros {
+    position: relative;
+    padding: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    height: 0;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .acerca-de-nosotros .video-nosotros iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .frase-nosotros p {
+    padding: 0;
+    margin: auto 10px;
+    font-size: 0.75rem;
+  }
+  .equipo .texto-equipo p {
+    font-size: 0.75rem;
+    padding: 0;
+  }
+  .equipo .cont-cards {
+    margin-bottom: 1.25rem;
+  }
+  .equipo .cont-cards .card-2 {
+    display: none;
   }
   .equipo .cont-cards .card-3 {
     display: none;
