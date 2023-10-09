@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 1207px){
+@media (min-width: 620px) and (max-width: 1207px){
 	.beneficios-texto {
 		p {
 			padding: 0;
@@ -73,6 +73,105 @@
 		}
 		p{
 			font-size: $font-2xl;
+		}
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 619px){
+	.beneficios-texto {
+		p {
+			padding: 0;
+			font-size: $font-xs;
+		}
+	}
+
+	.beneficios-ofrecemos {
+		h3 {
+			font-size: $font-4xl;
+		}
+		.beneficios-grid {
+			grid-template-columns: repeat(2,2fr);
+			grid-template-rows: repeat(3,3fr);
+			grid-template-areas: 
+			"b1 b2"
+			"b3 b4"
+			"b5 b6"
+			;
+			padding: 0;
+			margin: auto 10px;
+		}
+		.container-b {
+			width: 6.25rem;
+			height: 6.25rem;
+			img{
+				width: 80%;
+			}
+			h4{
+				font-size: $font-md;
+				font-weight: $font-bold;
+			}
+			p{
+				font-size: $font-xs;
+			}
+		}
+	}
+
+	.faqs {
+		margin: 2.25rem .625rem;
+		h3 {
+			font-size: $font-2xl;
+		}
+		p {
+			font-size: $font-xs;
+		}
+	}
+
+	.beneficios-final{
+		display: flex;
+		flex-direction: column;
+		margin: auto .625rem;
+	}
+
+	.cta-solicitar {
+		margin: 0;
+		padding: .625rem 1.25rem;
+		text-align: center;
+		h3 {
+			font-size: $font-4xl;
+		}
+		p {
+			font-size: $font-sm;
+		}
+		.button-beneficios{
+			margin-bottom: 1.5rem;
+			padding: 0;
+			display: block;
+			button {
+				// No tiene hover xq en touch no hay hover solo click - arregarlo después con animación
+				width: 100%;
+				height: 3.125rem;
+				padding: 0;
+				a {
+					font-size: $font-sm;
+					font-weight: $font-bold;
+					text-align: center;
+					letter-spacing: .125rem;
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	.beneficios-frase {
+		display: block;
+		height: auto;
+		padding: 0;
+		.bf-carousel{
+			display: none;
+		}
+		p{
+			font-size: $font-md;
 		}
 	}
 }
