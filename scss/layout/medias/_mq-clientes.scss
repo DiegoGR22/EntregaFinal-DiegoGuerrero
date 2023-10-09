@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 1207px){
+@media (min-width: 645px) and (max-width: 1207px){
     .clientes-principal{
         padding: 1.875rem 1.875rem;
         // grid-template-rows: 100px 1fr;
@@ -49,3 +49,94 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 644px){
+    .clientes-principal{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 1.25rem 1.25rem;
+        .clientes-texto{
+            h2{
+                font-size: $font-3xl;
+                text-align: center;
+            }
+            p{
+                font-size: $font-xs;
+            }
+            .button-afiliarme{
+                justify-content: center;
+                a{
+                    width: 300px;
+                    font-size: $font-3xl;
+                    font-weight: $font-black;
+                }
+            }
+        }
+        .clientes-datos{
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 20px 0;
+            div{
+                width: 6.25rem;
+                height: 6.25rem;
+                p{
+                    font-size: $font-xs;
+                }
+            }
+        }
+    }
+
+
+    .clientes-cinta{
+        h3{
+            font-size: $font-xs;
+            text-align: center;
+        }
+    }
+
+    .empresas-clientes{
+        margin: 20px 0px;
+        padding: 0;
+        h3{
+            text-align: center;
+            font-size: $font-xl;
+        }
+        h4{
+            text-align: center;
+            font-size: $font-md;
+        }
+        .empresas{
+            gap: 1.25rem;
+            .empresas-logo{
+                gap: 1.875rem;
+                img{
+                    width: 5rem;
+                }
+            }
+        }
+    }
+
+    .testimoniales-clientes{
+        h3{
+            font-size: $font-xl;
+            text-align: center;
+            margin: 10px;
+        }
+    }
+
+    .testimoniales-escritos{
+        width: 100%;
+        padding: 1.25rem;
+        .title{
+            margin: 1.25rem;
+            h2{
+                font-size: $font-2xl;
+            }
+        }
+        .review{
+            #info{
+                font-size: $font-sm;
+            }
+        }
+    }
+}

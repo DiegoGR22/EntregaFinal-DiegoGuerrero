@@ -1240,7 +1240,7 @@ header {
     font-size: 1rem;
   }
 }
-@media (min-width: 320px) and (max-width: 1207px) {
+@media (min-width: 645px) and (max-width: 1207px) {
   .clientes-principal {
     padding: 1.875rem 1.875rem;
   }
@@ -1268,6 +1268,84 @@ header {
   }
   .testimoniales-clientes h3 {
     text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 644px) {
+  .clientes-principal {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1.25rem 1.25rem;
+  }
+  .clientes-principal .clientes-texto h2 {
+    font-size: 1.875rem;
+    text-align: center;
+  }
+  .clientes-principal .clientes-texto p {
+    font-size: 0.75rem;
+  }
+  .clientes-principal .clientes-texto .button-afiliarme {
+    justify-content: center;
+  }
+  .clientes-principal .clientes-texto .button-afiliarme a {
+    width: 300px;
+    font-size: 1.875rem;
+    font-weight: 900;
+  }
+  .clientes-principal .clientes-datos {
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .clientes-principal .clientes-datos div {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .clientes-principal .clientes-datos div p {
+    font-size: 0.75rem;
+  }
+  .clientes-cinta h3 {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .empresas-clientes {
+    margin: 20px 0px;
+    padding: 0;
+  }
+  .empresas-clientes h3 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .empresas-clientes h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .empresas-clientes .empresas {
+    gap: 1.25rem;
+  }
+  .empresas-clientes .empresas .empresas-logo {
+    gap: 1.875rem;
+  }
+  .empresas-clientes .empresas .empresas-logo img {
+    width: 5rem;
+  }
+  .testimoniales-clientes h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 10px;
+  }
+  .testimoniales-escritos {
+    width: 100%;
+    padding: 1.25rem;
+  }
+  .testimoniales-escritos .title {
+    margin: 1.25rem;
+  }
+  .testimoniales-escritos .title h2 {
+    font-size: 1.5rem;
+  }
+  .testimoniales-escritos .review #info {
+    font-size: 0.875rem;
   }
 }
 @media (min-width: 320px) and (max-width: 1207px) {
