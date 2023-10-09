@@ -59,6 +59,7 @@
 		.calltoaction-inscribirme {
 			p {
 				font-size: $font-2xl;
+				font-weight: $font-bold;
 			}
 			.div-button{
 				button {
@@ -77,86 +78,111 @@
 }
 
 
-@media (max-width: 320px) {
-	.principal {
-		-webkit-backdrop-filter: none;
-		backdrop-filter: none;
-		h1 {
-			font-size: $font-xl;
-			padding: 0;
-			margin: 0;
-			font-weight: $font-black;
-		}
-		p {
-			display: none;
-		}
-	}
-	.video {
-		width: 80%;
-		iframe {
-			width: 100%;
-			height: 100%;
-		}
-	}
-	.frase-gancho {
-		p {
-			font-size: $font-md;
-		}
-	}
-	.como-ayudamos {
+@media (min-width: 320px) and (max-width: 599px) {
+	.section-principal {
+		display: flex;
 		flex-direction: column;
-		flex-wrap: nowrap;
-	}
-	.circulo {
-		width: 6.25rem;
-		height: 6.25rem;
-		border-radius: 6.25rem;
-		img {
-			width: 4rem;
-			height: 4rem;
-		}
-	}
-	.ayudas {
-		p {
-			display: none;
-		}
-	}
-	.atraer-clientes {
 		height: auto;
+		justify-content: center;
+		align-items: center;
+		.principal {
+			padding: 0;
+			-webkit-backdrop-filter: blur(2px);
+			backdrop-filter: blur(2px);
+			color: black;
+			border-radius: 40px;
+			h1{
+				font-size: $font-2xl;
+				padding-bottom: 0;
+			}
+		}
+		.video {
+			position: relative;
+			padding: 0;
+			padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+			height: 0;
+			width: 100%;
+			margin: 0;
+			margin-bottom: 20px;
+			iframe{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
 	}
-	.datos-clientes {
-		gap: 1.25rem;
-		margin: 0;
-		padding: 2.5rem 1.875rem;
+
+	.frase-gancho {
+		padding: 3.125rem;
+		p {
+			margin: 0;
+			font-size: $font-sm;
+		}
+	}
+
+	.como-ayudamos {
+		flex-wrap: wrap;
+		height: auto;
+		padding: 0;
 		flex-direction: column;
+		.ayudas {
+			// flex-direction: row;
+			padding: .9375rem;
+			.circulo {
+				margin: 0;
+				width: 6.25rem;
+				height: 6.25rem;
+				border-radius: 6.25rem;
+				img{
+					width: 60px;
+					height: 60px;
+				}
+			}
+			p {
+				font-size: $font-xs;
+			}
+		}
 	}
-	.cinta-giros {
-		display: none;
+
+	.gancho-clientes{
+		.atraer-clientes{
+			height: auto;
+			.datos-clientes {
+				gap: 1.875rem;
+				padding: 0;
+				font-size: $font-md;
+				margin: 16px;
+			}
+		}
 	}
-	.testimoniales {
-		h2 {
+
+	.testimoniales{
+		h2{
 			font-size: $font-3xl;
 			font-weight: $font-bold;
 		}
-	}
-	.calltoaction-inscribirme {
-		flex-direction: column;
-		margin-top: 1.25rem;
-		p {
-			font-size: $font-md;
-			padding: 0;
-			margin: 0;
-			width: 100%;
+		.carousel-bootstrap {
+			width: 80%;
 		}
-		button {
-			width: 9.375rem;
-			height: 3.125rem;
-			justify-content: center;
-			padding: 0;
-			margin: 0;
-			a {
-				font-size: $font-md;
-				padding: 0;
+		.calltoaction-inscribirme {
+			margin-top: .625rem;
+			p {
+				font-size: $font-sm;
+				font-weight: $font-bold;
+			}
+			.div-button{
+				button {
+					width: 100%;
+					height: auto;
+					justify-content: center;
+					a {
+						font-size: $font-lg;
+						padding: 0;
+						margin: .625rem;
+					}
+				}
 			}
 		}
 	}

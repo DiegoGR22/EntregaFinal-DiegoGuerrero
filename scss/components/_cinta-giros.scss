@@ -11,6 +11,7 @@
         text-transform: uppercase;
         gap: 2.5rem;
         margin: 0;
+        margin: 0 .625rem;
         padding: 0;
         li{
             display: flex;
@@ -24,11 +25,68 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 1207px){
+@media (min-width: 728px) and (max-width: 1207px){
     .cinta-giros{
         width: 100%;
         ul{
             gap: .9375rem;
+            .giro-6{
+                display: none;
+            }
+            li{
+                font-size: $font-xs;
+            }
+        }
+    }
+}
+
+@media (min-width: 682px) and (max-width: 727px){
+    .cinta-giros{
+        ul{
+            .giro-5{
+                display: none;
+            }
+            .giro-6{
+                display: none;
+            }
+            li{
+                font-size: $font-xs;
+            }
+        }
+    }
+}
+
+@media (min-width: 411px) and (max-width: 681px){
+    .cinta-giros{
+        ul{
+            .giro-4{
+                display: none;
+            }
+            .giro-5{
+                display: none;
+            }
+            .giro-6{
+                display: none;
+            }
+            li{
+                font-size: $font-xs;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 410px){
+    .cinta-giros{
+        ul{
+            .giro-3{
+                display: none;
+            }
+            .giro-4{
+                display: none;
+            }
+            .giro-5{
+                display: none;
+            }
             .giro-6{
                 display: none;
             }
