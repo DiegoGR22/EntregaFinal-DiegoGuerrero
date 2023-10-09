@@ -728,6 +728,10 @@ header {
   margin: 0;
 }
 
+main img {
+  width: 100%;
+}
+
 .navbar li a {
   text-decoration: none;
   text-transform: uppercase;
