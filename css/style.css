@@ -56,7 +56,7 @@ body {
 .frase-gancho {
   width: 100%;
   height: 15.625rem;
-  background-color: rgba(6, 75, 125, 0.8431372549);
+  background-image: linear-gradient(to right, #051937, #0f325a, #164d80, #166aa7, #0389d0);
   padding: 4.6875rem 3.125rem;
   height: auto;
 }
