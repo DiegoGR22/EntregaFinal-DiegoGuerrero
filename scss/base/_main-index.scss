@@ -9,7 +9,7 @@
     .principal{
         @include flex(column, unset, unset, 0);
         margin: 1.25rem;
-        color: whitesmoke;
+        color: $color-white-1;
         padding: 3.125rem;
         h1{
             text-align: center;
@@ -37,7 +37,7 @@
     p{
     text-align: center;
     font-size: $font-xl;
-    color: whitesmoke;
+    color: $color-white-1;
     }
 }
 
@@ -52,7 +52,7 @@
             @include flex(initial, center, center, 0);
             width: 18.75rem;
             height: 18.75rem;
-            background-color: rgba(61, 145, 173, 0.787);
+            background-color: $color-blue-9;
             border-radius: 18.75rem;
             margin-bottom: .9375rem;
             img{
@@ -70,12 +70,12 @@
 .gancho-clientes{
     .atraer-clientes{
         @include flex(row, center, center, 0);
-        background-color: rgba(20, 135, 177, 0.856);
+        background-color: $color-blue-10;
         height: 11.875rem;
         .datos-clientes{
             @include flex(initial, center, center, 18.75rem);
             list-style: none;
-            color: whitesmoke;
+            color: $color-white-1;
             font-size: $font-4xl;
             text-align: center;
         }
@@ -117,16 +117,16 @@
                 @include flex(initial, center, center, 0);
                 width: 31.25rem;
                 height: 6.25rem;
-                background-color: #07598C;;
+                background-color: $color-blue-11;
                 border: none;
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
                 border-radius: 1.875rem;
                 &:hover{
-                    background-color: #bb0606;
+                    background-color: $color-red-1;
                 }
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: $color-white-1;
                     font-size: $font-6xl;
                     text-align: center;
                 }
