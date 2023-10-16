@@ -1,9 +1,9 @@
 header{
-    background-color: whitesmoke;
+    background-color: $color-white-1;
     align-items: center;
     padding: .625rem 0rem;
     position: sticky;
     height: auto;
-    border-bottom: solid 3px lightgray;
+    border-bottom: solid 3px $color-gray-1;
     z-index: 10000;
 }

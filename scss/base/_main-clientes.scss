@@ -26,7 +26,7 @@
         @include flex(column, flex-start, center, 2.5rem);
         div{
             @include flex(initial, center, center, 0);
-            background-color: lightgray;
+            background-color: $color-blue-12;
             border-radius: 50%;
             width: 11.25rem;
             height: 11.25rem;
@@ -71,7 +71,7 @@
         .line{
             width: 70%;
             height: .3125rem;
-            background-color: black;
+            background-color: $color-black-1;
         }
     }
 }
@@ -98,7 +98,7 @@
         .underline{
             width: 100px;
             height: 4px;
-            background-color: #134975;
+            background-color: $color-blue-4;
             margin: 0 auto;
         }
     }
@@ -127,20 +127,20 @@
             font-weight: $font-semibold;
             text-transform: capitalize;
             margin-top: 10px;
-            color: snow;
+            color: $color-white-1;
         }
         
         #job{
             text-transform: uppercase;
             line-height: 150%;
             margin-bottom: 10px;
-            color: lightskyblue;
+            color: $color-blue-13;
         }
         
         #info{
             height: 100px;
             font-size: $font-lg;
-            color: #fff;
+            color: $color-white-1;
             font-weight: $font-normal;
             text-align: center;
             margin-bottom: 30px;
@@ -151,7 +151,7 @@
             border-style: none;
             font-size: $font-3xl;
             margin: 0 10px;
-            color: lightskyblue;
+            color: $color-blue-13;
             cursor: pointer;
             background-color:#12192c;
         }

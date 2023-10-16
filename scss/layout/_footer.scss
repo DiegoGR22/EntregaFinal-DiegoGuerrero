@@ -3,11 +3,11 @@
     background-color: #064B7DDE;
     height: 31.25rem;
     /* padding: 1.25rem; */
-    color: whitesmoke;
+    color: $color-white-1;
 }
 
 .aviso{
-	background-color: #D9D9D9;
+	background-color: $color-gray-1;
 	text-align: center;
 	height: 2.5rem;
 	h6 {

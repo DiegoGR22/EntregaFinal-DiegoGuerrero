@@ -58,7 +58,7 @@
             /* border-radius: 1.25rem; */
         }
         .send-button{
-            background-color: #62A4CE;
+            background-color: $color-blue-6;
             width: 9.375rem;
             height: 1.875rem;
             margin-top: 1.25rem;
@@ -71,7 +71,7 @@
             text-align: center;
             font-weight: $font-bold;
             &:hover{
-                background-color: #bb0606;
+                background-color: $color-red-1;
             }
         } 
     }
