@@ -21,7 +21,10 @@
             @include flex(column, center, center, 0);
             width: 100%;
             height: 100%;
-            background-color: lightblue;
+            background-color: $color-blue-12;
+            img{
+                width: 70%;
+            }
         }
         .b1{
             grid-area: b1;
@@ -56,8 +59,8 @@
         font-weight: $font-bold;
     }
     .accordion-button{
-    background-color: #1170ab;
-    color: snow;
+    background-color: $color-blue-3;
+    color: $color-white-1;
     text-transform: uppercase;
     font-size: $font-xl;
     font-weight: $font-bold;
@@ -104,16 +107,16 @@
             align-items: center;
             width: 100%;
             height: 6.25rem;
-            background-color: #07598C;
+            background-color: $color-blue-11;
             border: none;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             border-radius: 1.875rem;
             &:hover{
-                background-color: #bb0606;
+                background-color: $color-red-1;
             }
             a{
                 text-decoration: none;
-                color: white;
+                color: $color-white-1;
                 font-size: $font-5xl;
                 text-align: center;
             }
