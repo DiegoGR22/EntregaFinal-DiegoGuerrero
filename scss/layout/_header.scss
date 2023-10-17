@@ -6,4 +6,25 @@ header{
     height: auto;
     border-bottom: solid 3px $color-gray-1;
     z-index: 10000;
+
+    ul li{
+        &:hover{
+            opacity: 1;
+            // transform: scale(1.1);
+            &::after{
+                transform: scale3d(1, 1, 1);
+            }
+        }
+    
+        &::after{
+            width: 100%;
+            height: 2px;
+            content: '';
+            display: block;
+            transform: scale3d(0, 0, 1);
+            transition: all .2s ease;
+            transform-origin: center;
+            background-color: $color-black-1;
+        }
+    }
 }
