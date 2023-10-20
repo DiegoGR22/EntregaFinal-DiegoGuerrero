@@ -17,3 +17,16 @@ El sitio web es de la empresa People & Business, una empresa de consultoría en 
 
 ![HTML5](html-5-3.png)
 ![CSS3](css-3.png)
+
+### Frameworks Utilizados
+
+![Bootstrap](bootstrap-logo-shadow.png)
+
+## Links
+
+[Repository](https://github.com/DiegoGR22/EntregaFinal-DiegoGuerrero/tree/entrega-final)
+
+## Desarrolladores
+
+| [<img src="https://avatars.githubusercontent.com/u/142441979?v=4" width=115><br><sub>DIEGO GUERRERO ROMERO</sub>](https://github.com/DiegoGR22) |
+
