@@ -4,6 +4,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/status-En_desarrollo-green">
+    <br>
     <img src="https://img.shields.io/badge/release_date-Octubre-orange">
 </p>
 
