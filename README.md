@@ -15,5 +15,5 @@ El sitio web es de la empresa People & Business, una empresa de consultoría en 
 
 ## Herramientas Utilizadas
 
-![HTML5](html-5-2.png)
+![HTML5](html-5-3.png)
 ![CSS3](css-3.png)
