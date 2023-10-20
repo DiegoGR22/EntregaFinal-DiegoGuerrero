@@ -13,4 +13,6 @@ Es un sitio web desarrollado para la entrega final del curso de Desarrollo Web c
 
 El sitio web es de la empresa People & Business, una empresa de consultoría en México. 
 
-![HTML5](html-5-1.png)
+### Herramientas Utilizadas
+
+![HTML5](html-5-2.png)
