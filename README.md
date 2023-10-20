@@ -16,12 +16,12 @@ El sitio web es de la empresa People & Business, una empresa de consultoría en 
 
 ## Herramientas Utilizadas
 
-![HTML5](html-5-3.png)
-![CSS3](css-3.png)
+![HTML5](<assets/img/html-5-3.png>)
+![CSS3](<assets/img/css-3.png>)
 
 ### Frameworks Utilizados
 
-![Bootstrap](icons8-oreja-48.png)
+![Bootstrap](<assets/img/icons8-oreja-48.png>)
 
 ## Links
 
