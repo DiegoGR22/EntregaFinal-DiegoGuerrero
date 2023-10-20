@@ -12,3 +12,5 @@
 Es un sitio web desarrollado para la entrega final del curso de Desarrollo Web con la comisión __46860__ en CoderHouse. 
 
 El sitio web es de la empresa People & Business, una empresa de consultoría en México. 
+
+![Alt text](image.png)
